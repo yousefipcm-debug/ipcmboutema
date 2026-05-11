@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPCM BOUTEMA | Construction Métallique & Industrie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="LOGO.png" alt="IPCM Logo">
+                <span>BOUTEMA</span>
+            </a>
+            <a href="javascript:void(0)" id="nav-access-trigger" class="access-link-top">
+                <i class="fa-solid fa-lock"></i> Accès
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="javascript:void(0)" id="nav-about-trigger">À Propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Réalisations</a></li>
+                <li><a href="#current-projects">En Cours</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" style="display: none;">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home" style="background-image: url('grues.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>CONSTRUCTION<br>& <span>INDUSTRIE</span></h1>
+                <p>Réalisez vos projets avec des experts de confiance.</p>
+                <div class="hero-btns">
+                    <a href="#about" class="btn-secondary">À Propos</a>
+                    <a href="#contact" class="btn-primary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Overlap Bar -->
+    <section class="services-bar" id="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card" id="metal-trigger" style="cursor: pointer;">
+                    <i class="fa-solid fa-bridge"></i>
+                    <div>
+                        <h3>Construction Métallique</h3>
+                        <p>Structures et charpentes en acier. <strong>(Détails)</strong></p>
+                    </div>
+                </div>
+                <div class="service-card" id="civil-trigger" style="cursor: pointer;">
+                    <i class="fa-solid fa-building"></i>
+                    <div>
+                        <h3>Construction Bâtiment</h3>
+                        <p>Travaux de maçonnerie et structures béton. <strong>(Détails)</strong></p>
+                    </div>
+                </div>
+                <div class="service-card" id="maintenance-trigger" style="cursor: pointer;">
+                    <i class="fa-solid fa-gears"></i>
+                    <div>
+                        <h3>Industrie</h3>
+                        <p>Entretien et optimisation de sites industriels. <strong>(Détails)</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section class="why-us" id="about">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 60px;">POURQUOI CHOISIR <span>IPCM BOUTEMA</span> ?</h2>
+            
+            <div class="why-grid">
+                <div class="why-item">
+                    <i class="fa-solid fa-users-gear"></i>
+                    <div>
+                        <h3>Expertise & Savoir-Faire</h3>
+                        <p>Une équipe qualifiée et expérimentée.</p>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Qualité Garantie</h3>
+                    <p>Travail soigné, normes de sécurité strictes et matériaux de haute qualité.</p>
+                </div>
+                <div class="why-item">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <h3>Respect des Délais</h3>
+                    <p>Projets réalisés dans les temps avec une coordination de chantier optimale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>NOS RÉALISATIONS</h2>
+                <p>Découvrez nos projets réalisés avec excellence.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" id="piscine-trigger" style="cursor: pointer;">
+                    <div class="project-img">
+                        <img src="(picine_olympique.jpg).png" alt="Piscine Olympique">
+                    </div>
+                    <div class="project-info">
+                        <h3>Piscine Olympique</h3>
+                        <p>PROJET INDUSTRIEL</p>
+                    </div>
+                </div>
+                <div class="project-card" id="commercial-trigger" style="cursor: pointer;">
+                    <div class="project-img">
+                        <img src="WhatsApp Image 2026-04-15 at 11.08.59.jpeg" alt="Centre commercial et de loisirs">
+                    </div>
+                    <div class="project-info">
+                        <h3>Centre commercial et de loisirs – SARL BDS TOURISME</h3>
+                        <p>PROJET COMMERCIAL</p>
+                    </div>
+                </div>
+                <div class="project-card" id="safex-trigger" style="cursor: pointer;">
+                    <div class="project-img">
+                        <img src="1.jpge;.jpg" alt="Palais des Expositions la SAFEX">
+                    </div>
+                    <div class="project-info">
+                        <h3>Palais des Expositions “la SAFEX”</h3>
+                        <p>STRUCTURE MÉTALLIQUE</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#projects" class="btn-primary">Voir toutes les réalisations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Projects & Innovation Section -->
+    <section class="news" id="current-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>PROJETS EN COURS & INNOVATIONS</h2>
+                <p>Suivez l'avancement de nos chantiers et nos dernières avancées techniques</p>
+            </div>
+            
+            <div class="news-grid">
+                <article class="news-card" id="kharrouba-trigger" style="cursor: pointer;">
+                    <div class="news-content">
+                        <span class="news-category">Projet en Cours</span>
+                        <h3>Construction d'une unité de production</h3>
+                        <div style="margin-top: 20px; display: flex; align-items: center; gap: 8px; color: var(--accent); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                            <span>En savoir plus</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card" id="innovation-trigger" style="cursor: pointer;" onclick="openModal('innovation-modal'); initInnovationSlideshow();">
+                    <div class="news-content">
+                        <span class="news-category">Innovation</span>
+                        <h3>Systèmes de Couverture</h3>
+                        <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 10px;">
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-layer-group" style="color: var(--accent);"></i>
+                                <span style="font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px;">Système Autoportant</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-bolt" style="color: var(--accent);"></i>
+                                <span style="font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px;">Système Skinzip®</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; gap: 8px; color: var(--accent); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                            <span>En savoir plus</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="news-card">
+                    <div class="news-content" style="padding: 20px 0;">
+                        <div style="margin-bottom: 25px;">
+                            <img src="BLOCOTELHA.png" alt="Blocotelha Logo" style="max-width: 160px; height: auto; display: block; margin: 0 auto;">
+                        </div>
+                        <span class="news-category" style="font-size: 1.1rem; margin-bottom: 15px;">Conseils techniques</span>
+                        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); margin-bottom: 0;">Confiez-nous votre projet en toute sérénité. De la conception à la livraison, Blocotelha prend en charge l’ensemble de votre projet de construction métallique, avec un engagement total pour votre satisfaction.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-left" style="background-image: url('grues.jpg');">
+            <div class="contact-left-content">
+                <h2>CONTACTEZ-NOUS</h2>
+                <p>Pour discuter de votre projet industriel et obtenir une réponse personnalisée.</p>
+                <div style="margin-top: 30px;">
+                    <p><i class="fa-solid fa-phone" style="color: var(--accent); margin-right: 15px;"></i> 05 50 70 02 31 / 05 50 70 01 96</p>
+                    <p><i class="fa-solid fa-envelope" style="color: var(--accent); margin-right: 15px;"></i> technocommercial.ipcm@gmail.com / direction.ipcm@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot" style="color: var(--accent); margin-right: 15px;"></i> Quartier des frères jennadi — Blida</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Téléphone" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Votre Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div style="margin-bottom: 20px; font-weight: 800; font-family: 'Outfit'; color: var(--white);">IPCM BOUTEMA</div>
+            <div class="footer-content">
+                <span><i class="fa-solid fa-phone"></i> 05 50 70 02 31 / 05 50 70 01 96</span>
+                <span><i class="fa-solid fa-envelope"></i> technocommercial.ipcm@gmail.com / direction.ipcm@gmail.com</span>
+                <span><i class="fa-solid fa-globe"></i> www.ipcm-boutema.dz</span>
+                <span><i class="fa-solid fa-location-dot"></i> Quartier des frères jennadi — Blida</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Modal À Propos -->
+    <div id="about-modal" class="modal-overlay">
+        <div class="modal-card immersive about-bg">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>À PROPOS DE <span>L'ENTREPRISE</span></h2>
+                    </div>
+                    <div class="modal-text">
+                        <p><strong>IPCM BOUTEMA</strong> est une entreprise spécialisée dans la construction métallique, le Béton Armé et l'industrie, créée par <strong>Abdelkader BOUTEMA</strong>.</p>
+                        <p>Forts de l'expérience et des compétences de nos équipes hautement qualifiées, nous assurons la conception, la fabrication, la construction et l'installation de structures de différents types répondant aux standards les plus exigeants en matière de qualité, sécurité et respect des délais.</p>
+                        <p>Notre approche repose sur la rigueur, le savoir-faire et l'innovation, permettant d'accompagner nos clients à chaque étape de leurs projets. IPCM BOUTEMA s'engage ainsi à fournir des solutions techniques fiables, personnalisées et durables, répondant aux besoins spécifiques de chaque chantier.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Construction MÃ©tallique -->
+    <div id="metal-modal" class="modal-overlay">
+        <div class="modal-card immersive metal-bg">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>CONSTRUCTION <span>MÉTALLIQUE</span></h2>
+                    </div>
+                    <div class="modal-text">
+                        <p><strong>Structures Métalliques :</strong> Fabrication et montage de charpentes ordinaires, PRS, tubulaires et complexes de toutes portées.</p>
+                        <p><strong>Couvertures Autoportantes :</strong> Fabrication et montage assurant une robustesse et une durabilité maximale, jusqu'à 30 mètres de portée.</p>
+                        <p><strong>Expertise Montage :</strong> Installation de tous types de charpentes et couvertures (panneaux ordinaires, coupe-feu).</p>
+                        <p><strong>Systèmes Spécifiques :</strong> Maîtrise du système SKINZIP® pour la couverture et les bardages adaptés à vos besoins.</p>
+                        <p><strong>Salles Techniques :</strong> Construction de laboratoires, salles blanches et chambres froides (exigences sanitaires et techniques).</p>
+                        <p><strong>Soudage & Assemblage :</strong> Soudeurs qualifiés (MIG, TIG, ...) et assemblage rigoureux selon les normes internationales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Génie Civil -->
+    <div id="civil-modal" class="modal-overlay">
+        <div class="modal-card immersive civil-bg">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>CONSTRUCTION <span>BÂTIMENT</span></h2>
+                    </div>
+                    <div class="modal-text">
+                        <p><strong>Béton armé et Maçonnerie :</strong> Coffrage, coulage de béton et renforts.</p>
+                        <p><strong>Charpente et ossature :</strong> Structure bois ou métal.</p>
+                        <p><strong>Pose de menuiseries :</strong> Fenêtres, portes et finitions extérieures.</p>
+                        <p><strong>Revêtement :</strong> Expertise en sols, murs et plafonds.</p>
+                        <p><strong>Normes :</strong> Parfaite maîtrise des normes de construction en vigueur (DTR, RPA).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Maintenance -->
+    <div id="maintenance-modal" class="modal-overlay">
+        <div class="modal-card immersive maintenance-bg">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2><span>INDUSTRIE</span></h2>
+                    </div>
+                    <div class="modal-text">
+                        <p><strong>Installation d'équipements :</strong> Mise en place et configuration de vos systèmes productifs.</p>
+                        <p><strong>Tuyauterie / Soudure :</strong> Expertise complète en réseaux de fluides et assemblages spécialisés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Piscine Olympique -->
+    <div id="piscine-modal" class="modal-overlay">
+        <div class="modal-card immersive piscine-bg">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>PISCINE <span>OLYMPIQUE</span></h2>
+                    </div>
+
+                    <div class="modal-text">
+                        <div style="display: flex; justify-content: center; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 220px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Localisation</p>
+                                <p style="margin: 5px 0 0; font-size: 1.1rem; font-weight: 600;"><i class="fa-solid fa-location-dot" style="color: var(--accent); margin-right: 10px;"></i> Rouiba, Alger</p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 220px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Période</p>
+                                <p style="margin: 5px 0 0; font-size: 1.1rem; font-weight: 600;"><i class="fa-solid fa-calendar-days" style="color: var(--accent); margin-right: 10px;"></i> 2023 — 2025</p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 220px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Partenaire</p>
+                                <p style="margin: 5px 0 0; font-size: 1.1rem; font-weight: 600;"><i class="fa-solid fa-handshake" style="color: var(--accent); margin-right: 10px;"></i> BLOCOTELHA</p>
+                            </div>
+                        </div>
+
+                        <div style="text-align: left; background: rgba(0,0,0,0.2); padding: 35px; border-radius: 20px; border-left: 5px solid var(--accent); margin-bottom: 40px;">
+                            <p style="font-size: 1.2rem; margin-bottom: 20px;">
+                                Ce projet concerne la réalisation d'une <strong>piscine olympique</strong> dotée d'une structure mixte complexe.
+                            </p>
+                            <p>
+                                L'architecture repose sur des <strong>poutres principales de type PRS</strong> (Profilés Reconstitués Soudés) avec des portées exceptionnelles atteignant <strong>65,5 mètres</strong>, offrant un espace intérieur vaste et sans poteaux intermédiaires.
+                            </p>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; text-align: left;">
+                            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+                                <h3 style="color: var(--accent); margin-bottom: 20px; font-family: 'Outfit'; text-transform: uppercase; font-size: 1.1rem;"><i class="fa-solid fa-shield-virus"></i> Système de Couverture</h3>
+                                <p style="margin-bottom: 15px; opacity: 0.9;">Conception en <strong>double peau isolée</strong> pour une performance thermique et acoustique maximale :</p>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                                        <i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Pare-vapeur haute performance
+                                    </li>
+                                    <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                                        <i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Isolation en laine de roche
+                                    </li>
+                                    <li style="display: flex; align-items: center; gap: 10px;">
+                                        <i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Tôles de couverture BT114 et BT38
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+                                <h3 style="color: var(--accent); margin-bottom: 20px; font-family: 'Outfit'; text-transform: uppercase; font-size: 1.1rem;"><i class="fa-solid fa-gauge-high"></i> Atouts Techniques</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-wind" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Résistance aux charges climatiques sévères</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-ear-deaf" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Excellente absorption acoustique pour milieu humide</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-microchip" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Précision millimétrique du montage PRS</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Centre Commercial -->
+    <div id="commercial-modal" class="modal-overlay">
+        <div class="modal-card immersive commercial-bg">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>Centre commercial et de loisirs – <span>SARL BDS TOURISME</span></h2>
+                    </div>
+                    <div class="modal-text">
+                        
+                        <div style="background: rgba(0,0,0,0.3); padding: 25px; border-radius: 15px; border-left: 4px solid var(--accent);">
+                            <p><strong><i class="fa-solid fa-location-dot"></i> Localisation :</strong> à Beni Mered, Khazrouna (Wilaya de Blida).</p>
+                            <p><strong><i class="fa-solid fa-calendar"></i> Période :</strong> 2024 jusqu’à Aujourd’hui.</p>
+                            
+                            <p style="margin-top: 20px;">Le Projet consiste en la fabrication et le montage d’une <strong>charpente métallique d’un tonnage global de 1 500 tonnes</strong>, réalisée sur une durée initiale de six (06) mois.</p>
+                            
+                            <p style="margin-top: 20px; color: var(--accent);"><strong>Des travaux complémentaires sont en cours d’exécution :</strong></p>
+                            <ul style="list-style-type: none; padding-left: 15px; margin-bottom: 20px;">
+                                <li style="margin-bottom: 8px;"><i class="fa-solid fa-plus-circle" style="color: var(--accent);"></i> Travaux d’extension de la structure.</li>
+                                <li style="margin-bottom: 8px;"><i class="fa-solid fa-plus-circle" style="color: var(--accent);"></i> Intégration d’ascenseurs et de monte-charges.</li>
+                                <li style="margin-bottom: 8px;"><i class="fa-solid fa-plus-circle" style="color: var(--accent);"></i> Réalisation des couvertures.</li>
+                            </ul>
+                            
+                            <p>Le projet comprend également la construction de <strong>deux salles de jeux à deux niveaux</strong>, couvertes par des toitures autoportantes de portées respectives de 24m et 27m.</p>
+                            
+                            <p style="margin-top: 20px; font-style: italic; opacity: 0.9;">Ce système se distingue par l’absence de fermes traditionnelles, assurant ainsi une optimisation des volumes intérieurs et une réduction des éléments porteurs intermédiaires.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+    <!-- Modal SAFEX (Palais des Expositions) -->
+    <div id="safex-modal" class="modal-overlay">
+        <div class="modal-card immersive safex-modal-card">
+            <div class="slideshow-bg" id="safex-slideshow-bg"></div>
+            <div class="slideshow-overlay"></div>
+            <button class="modal-close">&times;</button>
+            <button class="slide-btn slide-prev" id="safex-prev">&#8249;</button>
+            <button class="slide-btn slide-next" id="safex-next">&#8250;</button>
+            <div class="slide-indicators" id="safex-indicators"></div>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>PALAIS DES EXPOSITIONS<br><span>"LA SAFEX"</span></h2>
+                    </div>
+                    
+                    <div class="modal-text">
+                        <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 40px; flex-wrap: wrap;">
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 200px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Localisation</p>
+                                <p style="margin: 5px 0 0; font-size: 1.2rem; font-weight: 600;"><i class="fa-solid fa-location-dot" style="color: var(--accent); margin-right: 10px;"></i> Alger, Algérie</p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 200px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Période</p>
+                                <p style="margin: 5px 0 0; font-size: 1.2rem; font-weight: 600;"><i class="fa-solid fa-calendar-days" style="color: var(--accent); margin-right: 10px;"></i> Mai — Décembre 2026</p>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 1.4rem; line-height: 1.6; color: #fff; margin-bottom: 30px;">
+                            Expertise technique en <strong>systèmes de couverture innovants</strong> pour structures de grande envergure.
+                        </p>
+
+                        <div style="text-align: left; background: rgba(0,0,0,0.2); padding: 35px; border-radius: 20px; border-left: 5px solid var(--accent); margin-bottom: 40px;">
+                            <p style="margin-bottom: 20px;">
+                                Ce projet d'envergure porte sur la mise en œuvre complète d’un système de couverture intégrant la solution <strong>SKINZIP® à joint debout</strong>, une technologie de pointe adaptée aux exigences architecturales les plus complexes.
+                            </p>
+                            <p style="margin-bottom: 20px;">
+                                La particularité de cette réalisation réside dans l'utilisation de <strong>plaques métalliques profilées de grande longueur (plus de 60 mètres)</strong>, façonnées directement sur site. Ce procédé unique permet de supprimer toute jonction intermédiaire, garantissant ainsi une <strong>étanchéité absolue</strong> et une rapidité d'exécution optimale.
+                            </p>
+                            <p>
+                                L’assemblage, réalisé par fermeture mécanique continue, repose sur des <strong>clips en aluminium</strong> fixés à la structure porteuse sans aucun perçage apparent. Le résultat offre un rendu esthétique pur, sans fixations visibles, alliant performance technique et élégance architecturale.
+                            </p>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+                                <h3 style="color: var(--accent); margin-bottom: 20px; font-family: 'Outfit'; text-transform: uppercase; font-size: 1.1rem;"><i class="fa-solid fa-layer-group"></i> Prestations Clés</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Fabrication et pose du système de couverture SKINZIPÂ®</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Profilage des plaques de grande longueur sur site</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>SystÃ¨me de fixation invisible haute sécurité</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+                                <h3 style="color: var(--accent); margin-bottom: 20px; font-family: 'Outfit'; text-transform: uppercase; font-size: 1.1rem;"><i class="fa-solid fa-shield-halved"></i> Performances</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-temperature-arrow-down" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Isolation thermique par laine de roche haute densité</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-volume-xmark" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Correction acoustique intégrée</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-clock" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Durabilité accrue face aux intempéries extrêmes</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 50px; font-style: italic; opacity: 0.6; font-size: 0.9rem;">
+                            Un projet réalisé avec la rigueur et l'excellence technique signées IPCM BOUTEMA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Kharrouba (Unité de Production) -->
+    <div id="kharrouba-modal" class="modal-overlay">
+        <div class="modal-card immersive kharrouba-modal-card">
+            <div class="slideshow-bg" id="kharrouba-slideshow-bg"></div>
+            <div class="slideshow-overlay"></div>
+            <button class="modal-close" style="color: white;">&times;</button>
+            <button class="slide-btn slide-prev" id="kharrouba-prev">&#8249;</button>
+            <button class="slide-btn slide-next" id="kharrouba-next">&#8250;</button>
+            <div class="slide-indicators" id="kharrouba-indicators"></div>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>CONSTRUCTION D'UNE<br><span>UNITÉ DE PRODUCTION</span></h2>
+                    </div>
+                    
+                    <div class="modal-text">
+                        <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 40px; flex-wrap: wrap;">
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 200px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Localisation</p>
+                                <p style="margin: 5px 0 0; font-size: 1.2rem; font-weight: 600;"><i class="fa-solid fa-location-dot" style="color: var(--accent); margin-right: 10px;"></i> Kharrouba, Boumerdès</p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 15px 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); min-width: 200px;">
+                                <p style="margin: 0; font-size: 0.9rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">Type de Projet</p>
+                                <p style="margin: 5px 0 0; font-size: 1.2rem; font-weight: 600;"><i class="fa-solid fa-industry" style="color: var(--accent); margin-right: 10px;"></i> Unité Industrielle</p>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 1.4rem; line-height: 1.6; color: #fff; margin-bottom: 30px;">
+                            Une unité de production <strong>moderne et optimisée</strong> pour une efficacité maximale des flux.
+                        </p>
+
+                        <div style="text-align: left; background: rgba(0,0,0,0.2); padding: 35px; border-radius: 20px; border-left: 5px solid var(--accent); margin-bottom: 40px;">
+                            <p style="margin-bottom: 20px;">
+                                Ce projet se distingue par une <strong>structure de grande portée (36m)</strong>, offrant un espace de production vaste et dégagé. 
+                            </p>
+                            <p style="margin-bottom: 20px;">
+                                L'aménagement inclut une <strong>mezzanine couvrant près de la moitié de la surface</strong> au sol, permettant de doubler la capacité opérationnelle sur une partie du bâtiment.
+                            </p>
+                            <p>
+                                L'intégration d’un <strong>monte-charge central</strong> est un élément clé de la conception, facilitant la logistique verticale et améliorant significativement l’organisation des flux entre les différents niveaux.
+                            </p>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+                                <h3 style="color: var(--accent); margin-bottom: 20px; font-family: 'Outfit'; text-transform: uppercase; font-size: 1.1rem;"><i class="fa-solid fa-ruler-combined"></i> Caractéristiques</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Structure grande portée de 36m</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Mezzanine industrielle à haute capacité</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Optimisation des flux logistiques</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+                                <h3 style="color: var(--accent); margin-bottom: 20px; font-family: 'Outfit'; text-transform: uppercase; font-size: 1.1rem;"><i class="fa-solid fa-elevator"></i> Équipements Clés</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Monte-charge industriel central</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Bardage et couverture isolée</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                                        <i class="fa-solid fa-check" style="color: var(--accent); margin-top: 5px;"></i>
+                                        <span>Structure métallique certifiée</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 50px; font-style: italic; opacity: 0.6; font-size: 0.9rem;">
+                            Un projet en cours de réalisation par les équipes de IPCM BOUTEMA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Innovation (Systèmes de Couverture) -->
+    <div id="innovation-modal" class="modal-overlay">
+        <div class="modal-card immersive innovation-modal-card">
+            <div class="slideshow-bg" id="innovation-slideshow-bg"></div>
+            <div class="slideshow-overlay"></div>
+            <button class="modal-close" style="color: white;">&times;</button>
+            <button class="slide-btn slide-prev" id="innovation-prev">&#8249;</button>
+            <button class="slide-btn slide-next" id="innovation-next">&#8250;</button>
+            <div class="slide-indicators" id="innovation-indicators"></div>
+            <div class="modal-body">
+                <div class="about-container">
+                    <div class="modal-header">
+                        <h2>SYSTÈMES DE <span>COUVERTURE</span><br>INNOVANTS</h2>
+                    </div>
+                    <div class="modal-text">
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; text-align: left;">
+                            <div style="background: rgba(255,255,255,0.05); padding: 30px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); border-top: 4px solid var(--accent);">
+                                <h3 style="color: var(--accent); font-family: 'Outfit'; text-transform: uppercase; margin-bottom: 15px; font-size: 1.1rem;"><i class="fa-solid fa-layer-group"></i> Système Autoportant</h3>
+                                <p style="font-size: 0.97rem; line-height: 1.75; opacity: 0.9;">Offrez à vos projets une solution moderne et performante. Nos tuiles autoportantes, constituées de longs profilés métalliques continus, reposent uniquement sur leurs extrémités, garantissant robustesse et efficacité. Adaptable aux structures métalliques et au béton armé.</p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 30px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); border-top: 4px solid var(--accent);">
+                                <h3 style="color: var(--accent); font-family: 'Outfit'; text-transform: uppercase; margin-bottom: 15px; font-size: 1.1rem;"><i class="fa-solid fa-bolt"></i> Système Skinzip®</h3>
+                                <p style="font-size: 0.97rem; line-height: 1.75; opacity: 0.9;">Panneaux profilés de grande longueur (jusqu'à 80m et plus), fabriqués sans discontinuité. Système de fixation avec raccord vertical et verrouillage mécanique continu sur clips en aluminium pour une durabilité exceptionnelle.</p>
+                            </div>
+                        </div>
+
+                        <div style="background: rgba(0,0,0,0.28); padding: 35px; border-radius: 20px; border-left: 5px solid var(--accent); text-align: left;">
+                            <h3 style="color: #fff; font-family: 'Outfit'; margin-bottom: 22px; font-size: 1.2rem; text-transform: uppercase;">
+                                <i class="fa-solid fa-certificate" style="color: var(--accent); margin-right: 10px;"></i>Avantages Techniques
+                            </h3>
+                            <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px;">
+                                <li style="display: flex; align-items: center; gap: 10px;"><i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Étanchéité absolue</li>
+                                <li style="display: flex; align-items: center; gap: 10px;"><i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Fixation sans perçage apparent</li>
+                                <li style="display: flex; align-items: center; gap: 10px;"><i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Grande portée jusqu'à 80m+</li>
+                                <li style="display: flex; align-items: center; gap: 10px;"><i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Isolation thermique intégrée</li>
+                                <li style="display: flex; align-items: center; gap: 10px;"><i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Pose rapide directement sur site</li>
+                                <li style="display: flex; align-items: center; gap: 10px;"><i class="fa-solid fa-circle-check" style="color: var(--accent);"></i> Esthétique premium, finition soignée</li>
+                            </ul>
+                        </div>
+
+                        <p style="margin-top: 20px; font-style: italic; opacity: 0.6; font-size: 0.9rem;">
+                            Des solutions maîtrisées et réalisées avec l'excellence technique IPCM BOUTEMA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Accès / Espace Client -->
+    <div id="access-modal" class="modal-overlay">
+        <div class="modal-card" style="max-width: 450px; background: #1a2634; color: white;">
+            <button class="modal-close" style="color: white;">&times;</button>
+            <div style="padding: 50px 40px; text-align: center;">
+                <div style="width: 80px; height: 80px; background: rgba(230, 126, 34, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; border: 1px solid rgba(230, 126, 34, 0.3);">
+                    <i class="fa-solid fa-user-shield" style="font-size: 2rem; color: var(--accent);"></i>
+                </div>
+                <h2 style="font-family: 'Outfit'; margin-bottom: 10px; text-transform: uppercase;">Espace Client</h2>
+                <p style="opacity: 0.7; font-size: 0.9rem; margin-bottom: 30px;">Veuillez vous connecter pour accéder à vos documents de projet.</p>
+                
+                <form id="access-form" style="text-align: left;">
+                    <div class="form-group" style="margin-bottom: 20px;">
+                        <label style="display: block; font-size: 0.8rem; opacity: 0.7; margin-bottom: 8px; text-transform: uppercase;">Identifiant</label>
+                        <input type="text" placeholder="Nom d'utilisateur ou Email" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 15px; border-radius: 8px; width: 100%;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 30px;">
+                        <label style="display: block; font-size: 0.8rem; opacity: 0.7; margin-bottom: 8px; text-transform: uppercase;">Mot de passe</label>
+                        <input type="password" placeholder="••••••••" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 15px; border-radius: 8px; width: 100%;">
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Se Connecter</button>
+                    <p style="text-align: center; margin-top: 20px; font-size: 0.8rem; opacity: 0.5;">Mot de passe oublié ? Contactez l'administration.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Conseils Technique -->
+    <div id="conseils-modal" class="modal-overlay">
+        <div class="modal-card immersive" style="background: linear-gradient(135deg, #1a2634 0%, #111a24 100%); color: white;">
+            <button class="modal-close" style="color: white; border-color: rgba(255,255,255,0.3);">&times;</button>
+            <div class="modal-body" style="padding: 60px 20px;">
+                <div class="about-container" style="text-align: center; max-width: 900px;">
+                    <div style="margin-bottom: 40px; animation: fadeInDown 0.8s ease-out;">
+                        <img src="BLOCOTELHA.png" alt="Blocotelha Logo" style="max-width: 300px; height: auto; filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));">
+                    </div>
+                    <div class="modal-header" style="margin-bottom: 30px; animation: fadeInUp 0.8s ease-out 0.2s; animation-fill-mode: both;">
+                        <h2 style="font-size: 2.5rem; letter-spacing: 2px;">VOTRE PROJET EN TOUTE <span style="color: var(--accent);">SÉRÉNITÉ</span></h2>
+                    </div>
+                    <div class="modal-text" style="animation: fadeInUp 0.8s ease-out 0.4s; animation-fill-mode: both;">
+                        <p style="font-size: 1.4rem; line-height: 1.8; color: rgba(255,255,255,0.95); font-weight: 400;">
+                            Confiez-nous votre projet en toute sérénité. De la conception à la livraison, <strong style="color: var(--white); font-weight: 700;">Blocotelha</strong> prend en charge l’ensemble de votre projet de construction métallique, avec un engagement total pour votre satisfaction.
+                        </p>
+                    </div>
+                    <div style="margin-top: 50px; animation: fadeInUp 0.8s ease-out 0.6s; animation-fill-mode: both;">
+                        <a href="#contact" class="btn-primary" onclick="closeModal()">Nous Contacter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
