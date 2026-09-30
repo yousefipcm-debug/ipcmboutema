@@ -1,0 +1,1355 @@
+
+www.ipcm-boutema.dz
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IPCM BOUTEMA — Construction métallique &amp; couverture</title>
+<meta name="description" content="IPCM BOUTEMA, entreprise de construction métallique, béton armé et industrie basée à Blida : charpente, couverture SKINZIP® et autoportante, bardage et levage partout en Algérie.">
+<meta name="theme-color" content="#FAF7F3">
+<meta property="og:title" content="IPCM BOUTEMA — Construction métallique & couverture">
+<meta property="og:description" content="Charpente, couverture, bardage et levage partout en Algérie. Entreprise basée à Blida.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ipcm-boutema.dz/">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta property="og:image" content="https://www.ipcm-boutema.dz/images/safex-aerien.jpg">
+<script>if("IntersectionObserver" in window)document.documentElement.classList.add("js");</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Logo colours: orange #B05010 · grey #545454 · black */
+  :root{
+    --o:#B05010;
+    --o-2:#9A460E;
+    --o-soft:#FBEFE6;
+    --o-tint:#F5DCC9;
+    --ink:#1E1E1E;
+    --g:#545454;
+    --g-2:#8B857E;
+    --bg:#FAF7F3;
+    --tile:#FFFFFF;
+    --tile-2:#F2EDE7;
+    --line:#ECE5DD;
+    --r:28px;
+    --r-s:18px;
+    --w:1280px;
+    --head:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+    --body:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+    --ease:cubic-bezier(.22,.61,.36,1);
+    --sh:0 1px 2px rgba(60,40,20,.04),0 10px 30px rgba(60,40,20,.06);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--body);font-size:16px;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;-webkit-tap-highlight-color:transparent;}
+  img{display:block;max-width:100%;}
+  a{color:inherit;text-decoration:none;}
+  button,input,select,textarea{font:inherit;color:inherit;}
+  ::selection{background:var(--o);color:#fff;}
+  :focus-visible{outline:3px solid var(--o);outline-offset:3px;border-radius:8px;}
+  .wrap{max-width:var(--w);margin:0 auto;padding:0 24px;}
+  section{padding:56px 0;scroll-margin-top:84px;}
+  h1,h2,h3,h4{font-family:var(--head);letter-spacing:-.03em;line-height:1.08;font-weight:800;}
+  .ico{width:22px;height:22px;flex:none;}
+
+  /* chips & buttons */
+  .chip{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;padding:7px 13px;border-radius:999px;background:var(--o-soft);color:var(--o);white-space:nowrap;}
+  .chip.dot::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;}
+  .chip.white{background:#fff;color:var(--ink);}
+  .chip.dark{background:rgba(30,30,30,.72);color:#fff;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);}
+  .chip.line{background:transparent;border:1px solid var(--line);color:var(--g);}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;border-radius:999px;font-weight:700;font-size:15px;border:1.5px solid transparent;cursor:pointer;transition:transform .25s var(--ease),background .25s,color .25s,border-color .25s,box-shadow .25s;white-space:nowrap;}
+  .btn .ico{width:19px;height:19px;}
+  .btn-o{background:var(--o);color:#fff;box-shadow:0 8px 22px rgba(176,80,16,.28);}
+  .btn-o:hover{background:var(--o-2);transform:translateY(-2px);}
+  .btn-w{background:#fff;border-color:var(--line);}
+  .btn-w:hover{border-color:var(--o);color:var(--o);}
+  .btn:active{transform:scale(.97);}
+
+  /* tiles */
+  .tile{background:var(--tile);border-radius:var(--r);padding:30px;position:relative;overflow:hidden;box-shadow:var(--sh);}
+  .tile.soft{background:var(--tile-2);box-shadow:none;}
+  .tile.orange{background:var(--o);color:#fff;box-shadow:0 14px 34px rgba(176,80,16,.22);}
+  .tile.tint{background:var(--o-soft);box-shadow:none;}
+  .tile.ph{padding:0;}
+  .tile.ph > img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform 1s var(--ease);}
+  .tile.ph:hover > img{transform:scale(1.04);}
+
+  /* section header */
+  .sec-h{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:end;margin-bottom:26px;}
+  .sec-h .num{font-family:var(--head);font-weight:800;font-size:15px;width:48px;height:48px;border-radius:16px;background:var(--ink);color:#fff;display:grid;place-items:center;}
+  .sec-h h2{font-size:clamp(30px,4vw,50px);}
+  .sec-h h2 em{font-style:normal;color:var(--o);}
+  .sec-h p{color:var(--g);max-width:380px;font-size:16px;text-align:right;}
+
+  /* HEADER */
+  header{position:sticky;top:0;z-index:60;background:rgba(250,247,243,.88);backdrop-filter:saturate(1.5) blur(14px);-webkit-backdrop-filter:saturate(1.5) blur(14px);border-bottom:1px solid transparent;transition:border-color .3s;}
+  header.scrolled{border-color:var(--line);}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;height:76px;}
+  .logo img{height:54px;width:auto;}
+  .links{display:flex;gap:2px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px;}
+  .links a{display:block;padding:9px 16px;border-radius:999px;font-weight:600;font-size:14.5px;color:var(--g);transition:background .2s,color .2s;}
+  .links a:hover{color:var(--ink);}
+  .links a.active{background:var(--ink);color:#fff;}
+  .nav-act{display:flex;gap:8px;}
+  .nav-act .btn{padding:12px 18px;font-size:14px;}
+  .only-m{display:none!important;}
+
+  /* phone section chips */
+  .tabs{display:none;}
+
+  /* HERO BENTO */
+  .hero{padding:22px 0 30px;}
+  .bento{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+  .h-main{grid-column:span 7;grid-row:span 2;padding:42px;display:flex;flex-direction:column;justify-content:space-between;gap:26px;min-height:520px;background:#fff;}
+  .h-main::after{content:"";position:absolute;right:-90px;bottom:-90px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,var(--o-soft) 0 60%,transparent 61%);z-index:0;}
+  .h-main > *{position:relative;z-index:1;}
+  .h-main .chips{display:flex;flex-wrap:wrap;gap:8px;}
+  .h-main h1{font-size:clamp(40px,5.2vw,74px);font-weight:800;}
+  .h-main h1 span{color:var(--o);}
+  .h-main h1 .u{position:relative;white-space:nowrap;}
+  .h-main h1 .u svg{position:absolute;left:0;right:0;bottom:-10px;width:100%;height:14px;}
+  .h-main p{color:var(--g);font-size:18px;max-width:520px;margin-top:18px;}
+  .h-main .acts{display:flex;gap:10px;flex-wrap:wrap;}
+  .h-photo{grid-column:span 5;grid-row:span 2;min-height:520px;}
+  .h-photo .chip{position:absolute;left:18px;bottom:18px;}
+  .h-photo .tag2{position:absolute;right:18px;top:18px;left:auto;bottom:auto;}
+  .fig{grid-column:span 3;display:flex;flex-direction:column;justify-content:space-between;gap:14px;min-height:150px;}
+  .fig .k{font-size:13px;font-weight:600;color:var(--g-2);text-transform:uppercase;letter-spacing:.06em;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .fig .k .ico{width:20px;height:20px;color:var(--o);}
+  .fig b{font-family:var(--head);font-size:clamp(34px,3.2vw,46px);font-weight:800;letter-spacing:-.03em;line-height:1;}
+  .fig b small{font-size:.45em;color:var(--o);margin-left:4px;font-weight:700;}
+  .fig > span{font-size:14px;color:var(--g);line-height:1.4;}
+  .fig b .cnt{font:inherit;color:inherit;}
+  .fig.orange .k,.fig.orange span{color:rgba(255,255,255,.85);}
+  .fig.orange .k .ico{color:#fff;}
+  .fig.orange b small{color:#fff;opacity:.8;}
+
+  /* PROJECTS */
+  .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .proj{display:flex;flex-direction:column;padding:0;}
+  .proj.wide{grid-column:1/-1;display:grid;grid-template-columns:1.35fr 1fr;}
+  .proj .media{position:relative;aspect-ratio:4/3;overflow:hidden;cursor:zoom-in;background:var(--tile-2);}
+  .proj.wide .media{aspect-ratio:auto;min-height:420px;display:grid;grid-template-columns:1.5fr 1fr;gap:4px;cursor:default;background:#fff;}
+  .proj .pic{position:relative;overflow:hidden;cursor:zoom-in;}
+  .proj img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease);}
+  .proj .media:hover img,.proj .pic:hover img{transform:scale(1.04);}
+  .proj .media > img{position:absolute;inset:0;}
+  .proj .thumb{position:absolute;left:14px;bottom:14px;z-index:3;width:92px;height:70px;border-radius:14px;overflow:hidden;border:3px solid #fff;box-shadow:0 6px 16px rgba(0,0,0,.25);cursor:zoom-in;}
+  .proj .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .proj .thumb i{position:absolute;inset:0;display:grid;place-items:center;background:rgba(30,30,30,.45);color:#fff;font-style:normal;font-weight:800;font-size:15px;}
+  .proj .top{position:absolute;left:16px;top:16px;right:16px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;z-index:2;pointer-events:none;}
+  .proj .zoom{position:absolute;right:14px;bottom:14px;z-index:2;width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 4px 14px rgba(0,0,0,.15);transition:background .2s,color .2s;}
+  .proj .zoom .ico{width:18px;height:18px;}
+  .proj .media:hover .zoom,.proj .pic:hover .zoom{background:var(--o);color:#fff;}
+  .proj .body{padding:26px 28px 28px;display:flex;flex-direction:column;gap:12px;flex:1;}
+  .proj.wide .body{padding:38px;justify-content:center;}
+  .proj .big{display:flex;align-items:baseline;gap:4px 8px;flex-wrap:wrap;}
+  .proj .big b{white-space:nowrap;}
+  .proj .big b{font-family:var(--head);font-size:40px;font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--o);}
+  .proj .big span{font-size:14px;color:var(--g);font-weight:600;}
+  .proj h3{font-size:24px;}
+  .proj.wide h3{font-size:32px;}
+  .proj p{color:var(--g);font-size:15.5px;}
+  .proj .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px;}
+  .proj .meta .chip{font-size:12.5px;padding:6px 11px;}
+
+  /* COVERINGS */
+  .cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .cov{padding:0;display:flex;flex-direction:column;}
+  .cov .media{position:relative;aspect-ratio:16/11;background:var(--o-soft);overflow:hidden;display:grid;place-items:center;}
+  .cov .media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease);}
+  .cov:hover .media img{transform:scale(1.05);}
+  .cov .media .credit{position:absolute;right:12px;bottom:12px;font-size:11px;font-weight:600;background:rgba(255,255,255,.9);padding:4px 9px;border-radius:999px;z-index:2;}
+  .cov .media .fallback{width:78%;color:var(--o);}
+  .cov .body{padding:24px 26px 28px;display:flex;flex-direction:column;gap:10px;flex:1;}
+  .cov .row{display:flex;justify-content:space-between;align-items:center;gap:10px;}
+  .cov h3{font-size:30px;font-weight:800;}
+  .cov h3 sup{font-size:14px;}
+  .cov p{color:var(--g);font-size:15px;}
+  .profile{height:44px;color:var(--o);margin-top:4px;}
+  .profile svg{height:100%;width:100%;}
+  .cov ul{list-style:none;display:grid;gap:8px;margin-top:6px;}
+  .cov li{display:flex;gap:10px;font-size:14.5px;font-weight:500;}
+  .cov li .ico{width:18px;height:18px;color:var(--o);margin-top:2px;}
+  .cov-note{margin-top:16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:22px 26px;}
+  .cov-note p{font-weight:600;}
+
+  /* COMPANY */
+  .egrid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+  .e-txt{grid-column:span 7;padding:38px;}
+  .e-txt h3{font-size:clamp(28px,3vw,38px);}
+  .e-txt h3 em{font-style:normal;color:var(--o);}
+  .e-txt > p{color:var(--g);font-size:17px;margin-top:16px;}
+  .e-txt ul{list-style:none;display:grid;gap:10px;margin-top:22px;}
+  .e-txt li{display:flex;gap:12px;align-items:flex-start;font-weight:600;background:var(--bg);border-radius:var(--r-s);padding:14px 16px;}
+  .e-txt li .ico{color:var(--o);}
+  .e-photo{grid-column:span 5;min-height:360px;}
+  .e-photo .chip{position:absolute;left:18px;bottom:18px;}
+  .e-mission{grid-column:span 5;display:flex;flex-direction:column;justify-content:center;gap:12px;}
+  .e-mission small{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.8;}
+  .e-mission p{font-family:var(--head);font-size:clamp(20px,2vw,26px);font-weight:600;line-height:1.3;letter-spacing:-.01em;}
+  .why{grid-column:span 7;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .why .tile{padding:22px;}
+  .why > .tile:last-child:nth-child(3n+2){grid-column:span 2;}
+  .why .tile .ico{width:26px;height:26px;color:var(--o);}
+  .why b{display:block;font-family:var(--head);font-size:18px;margin-top:14px;letter-spacing:-.01em;line-height:1.2;}
+  .why p{font-size:14px;color:var(--g);margin-top:6px;line-height:1.45;}
+
+  /* SERVICES */
+  .sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .svc{display:flex;flex-direction:column;gap:12px;transition:transform .35s var(--ease),box-shadow .35s var(--ease);}
+  .svc:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(60,40,20,.1);}
+  .svc .hd{display:flex;justify-content:space-between;align-items:flex-start;}
+  .svc .i{width:56px;height:56px;border-radius:18px;background:var(--o-soft);color:var(--o);display:grid;place-items:center;transition:background .3s,color .3s;}
+  .svc:hover .i{background:var(--o);color:#fff;}
+  .svc .i .ico{width:26px;height:26px;}
+  .svc .n{font-family:var(--head);font-weight:800;font-size:15px;color:var(--line);}
+  .svc h3{font-size:21px;margin-top:6px;}
+  .svc p{color:var(--g);font-size:15px;}
+  .method{grid-column:1/-1;display:grid;grid-template-columns:260px 1fr;gap:30px;align-items:center;}
+  .method h3{font-size:26px;}
+  .method > div > p{color:var(--g);font-size:15px;margin-top:6px;}
+  .steps{list-style:none;display:grid;grid-template-columns:repeat(6,1fr);gap:10px;counter-reset:s;}
+  .steps li{counter-increment:s;background:var(--bg);border-radius:var(--r-s);padding:16px 14px;font-weight:700;font-size:15px;position:relative;}
+  .steps li::before{content:counter(s);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--o);color:#fff;font-family:var(--head);font-size:14px;margin-bottom:10px;}
+  .steps li:not(:last-child)::after{content:"";position:absolute;right:-9px;top:30px;width:8px;height:2px;background:var(--o-tint);}
+
+  /* SAFETY */
+  .safe{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px;align-items:stretch;}
+  .safe-main{padding:38px;}
+  .safe-main h3{font-size:clamp(28px,3vw,40px);margin-top:14px;}
+  .safe-main p{margin-top:14px;font-size:16.5px;color:rgba(255,255,255,.9);}
+  .safe-main .chip{background:rgba(255,255,255,.18);color:#fff;}
+  .safe .n{display:flex;flex-direction:column;justify-content:space-between;gap:20px;min-height:220px;}
+  .safe .n b{font-family:var(--head);font-size:72px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--o);}
+  .safe .n p{font-weight:600;font-size:16px;}
+  .safe .n .ico{width:34px;height:34px;color:var(--o);}
+
+  /* CONTACT */
+  .cgrid2{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+  .c-cta{grid-column:span 5;display:flex;flex-direction:column;gap:18px;}
+  .c-cta h3{font-size:clamp(30px,3.4vw,44px);}
+  .c-cta > p{color:rgba(255,255,255,.88);}
+  .quick{display:grid;gap:10px;margin-top:auto;}
+  .quick a{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.14);border-radius:var(--r-s);padding:14px 16px;transition:background .2s,color .2s;}
+  .quick a:hover{background:#fff;color:var(--o);}
+  .quick a .qi{width:42px;height:42px;border-radius:14px;background:#fff;color:var(--o);display:grid;place-items:center;flex:none;}
+  .quick b{display:block;font-size:16px;}
+  .quick small{display:block;font-size:13px;opacity:.85;}
+  .c-form{grid-column:span 7;}
+  .c-form h3{font-size:28px;}
+  .c-form > p{color:var(--g);margin-top:6px;font-size:15px;}
+  .types{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+  .types input{position:absolute;opacity:0;pointer-events:none;}
+  .types label{cursor:pointer;padding:10px 16px;border-radius:999px;border:1.5px solid var(--line);font-weight:600;font-size:14.5px;transition:all .2s;background:#fff;}
+  .types input:checked + label{background:var(--ink);border-color:var(--ink);color:#fff;}
+  .types input:focus-visible + label{outline:3px solid var(--o);outline-offset:2px;}
+  .fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px;}
+  .f{display:flex;flex-direction:column;gap:6px;}
+  .f.full{grid-column:1/-1;}
+  .f label{font-size:13px;font-weight:700;color:var(--g);}
+  .f input,.f textarea{width:100%;border:1.5px solid var(--line);background:var(--bg);padding:14px 16px;font-size:16px;border-radius:14px;outline:none;transition:border-color .2s,background .2s;-webkit-appearance:none;appearance:none;}
+  .f textarea{min-height:110px;resize:vertical;}
+  .f input:focus,.f textarea:focus{border-color:var(--o);background:#fff;}
+  .f input.err{border-color:var(--o);background:var(--o-soft);}
+  .c-form .btn{margin-top:16px;width:100%;padding:17px;}
+  .c-form .hint{font-size:13px;color:var(--g-2);margin-top:10px;text-align:center;}
+  .c-phones{grid-column:span 5;}
+  .c-phones h4,.c-mails h4,.c-addr h4{font-size:13px;font-family:var(--body);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--g-2);margin-bottom:14px;}
+  .plist{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  .plist a{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--bg);border-radius:14px;padding:13px 14px;font-weight:700;font-size:15px;font-variant-numeric:tabular-nums;transition:background .2s,color .2s;}
+  .plist a .ico{width:16px;height:16px;color:var(--o);}
+  .plist a:hover{background:var(--o);color:#fff;}
+  .plist a:hover .ico{color:#fff;}
+  .c-mails{grid-column:span 4;}
+  .c-mails a{display:block;font-weight:600;padding:9px 0;border-bottom:1px solid var(--line);word-break:break-word;transition:color .2s;}
+  .c-mails a:last-child{border-bottom:0;}
+  .c-mails a:hover{color:var(--o);}
+  .c-addr{grid-column:span 3;display:flex;flex-direction:column;}
+  .c-addr p{font-weight:600;}
+  .c-addr .btn{margin-top:auto;align-self:flex-start;padding:11px 16px;font-size:14px;}
+
+  /* FOOTER */
+  footer{padding:30px 0 40px;}
+  .foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px;}
+  .foot .tile{padding:26px;}
+  .foot img{height:44px;width:auto;}
+  .foot p{color:var(--g);font-size:14.5px;margin-top:12px;}
+  .foot h5{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--g-2);margin-bottom:12px;}
+  .foot nav{display:flex;flex-wrap:wrap;gap:8px;}
+  .foot nav a{padding:8px 13px;border-radius:999px;background:var(--bg);font-weight:600;font-size:14px;transition:background .2s,color .2s;}
+  .foot nav a:hover{background:var(--o);color:#fff;}
+  .legal{font-size:12.5px;color:var(--g);line-height:1.8;}
+  .copy{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px;font-size:13.5px;color:var(--g-2);}
+  .copy a{font-weight:700;color:var(--ink);display:inline-flex;gap:6px;align-items:center;}
+  .copy a:hover{color:var(--o);}
+
+  .callbar{display:none;}
+
+  /* coverture -> references panel */
+  .cov{cursor:pointer;transition:transform .35s var(--ease),box-shadow .35s var(--ease);}
+  .cov:hover{transform:translateY(-4px);box-shadow:0 22px 44px rgba(60,40,20,.12);}
+  .cov .see{margin-top:auto;align-self:flex-start;padding:12px 16px 12px 18px;font-size:14.5px;}
+  .cov .body{gap:12px;}
+  .cov ul{margin-bottom:6px;}
+  .see .count{display:inline-grid;place-items:center;min-width:24px;height:24px;border-radius:999px;background:var(--o);color:#fff;font-size:12.5px;padding:0 7px;}
+  .cov:hover .see{border-color:var(--o);color:var(--o);}
+  .refs{position:fixed;inset:0;z-index:140;visibility:hidden;}
+  .refs.open{visibility:visible;}
+  .refs-bg{position:absolute;inset:0;background:rgba(30,30,30,.5);opacity:0;transition:opacity .3s;}
+  .refs.open .refs-bg{opacity:1;}
+  .refs-box{position:absolute;top:0;right:0;bottom:0;width:min(720px,100%);background:var(--bg);display:flex;flex-direction:column;transform:translateX(100%);transition:transform .45s var(--ease);box-shadow:-20px 0 60px rgba(0,0,0,.15);}
+  .refs.open .refs-box{transform:none;}
+  .refs-head{padding:22px 26px 18px;display:flex;justify-content:space-between;align-items:flex-start;gap:16px;border-bottom:1px solid var(--line);background:#fff;}
+  .refs-head small{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--o);}
+  .refs-head h3{font-size:28px;margin-top:4px;}
+  .refs-head p{color:var(--g);font-size:14.5px;margin-top:6px;}
+  .refs-x{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;display:grid;place-items:center;}
+  .refs-x:hover{background:var(--o);color:#fff;border-color:var(--o);}
+  .refs-head,.refs-tabs{flex:none;}
+  .refs-tabs{display:flex;gap:6px;padding:12px 26px;border-bottom:1px solid var(--line);background:#fff;overflow-x:auto;scrollbar-width:none;}
+  .refs-tabs button{flex:none;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;font-weight:700;font-size:14px;cursor:pointer;}
+  .refs-tabs button.on{background:var(--ink);border-color:var(--ink);color:#fff;}
+  .refs-body{overflow:auto;padding:20px 26px 40px;-webkit-overflow-scrolling:touch;}
+  .refs-body h4{font-size:13px;font-family:var(--body);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g-2);margin:6px 0 12px;}
+  .refs-body h4 + .rlist{margin-bottom:26px;}
+  .rlist{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .rcard{background:#fff;border-radius:22px;overflow:hidden;box-shadow:var(--sh);display:flex;flex-direction:column;}
+  .rcard.ours{grid-column:1/-1;flex-direction:row;}
+  .rcard .rph{position:relative;aspect-ratio:4/3;background:var(--o-soft);display:grid;place-items:center;color:var(--o);overflow:hidden;}
+  .rcard.ours .rph{flex:0 0 48%;aspect-ratio:auto;min-height:190px;}
+  .rcard .rph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .rcard .rph .ico{width:34px;height:34px;}
+  .rcard .rph.two{display:grid;grid-template-columns:1fr 1fr;gap:3px;background:#fff;}
+  .rcard .rph.two img{position:relative;inset:auto;height:100%;min-height:190px;}
+  @media (max-width:680px){.rcard .rph.two{grid-template-columns:1fr;aspect-ratio:auto!important;}.rcard .rph.two img{aspect-ratio:16/10;min-height:0;}}
+  .rcard .rph .chip{position:absolute;left:10px;top:10px;z-index:2;font-size:11.5px;padding:5px 10px;}
+  .rcard .rb{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1;}
+  .rcard .rb b{font-family:var(--head);font-size:17px;line-height:1.2;letter-spacing:-.01em;}
+  .rcard .rb .pl{font-size:13px;color:var(--g);display:flex;align-items:center;gap:6px;}
+  .rcard .rb .fg{font-family:var(--head);font-weight:800;color:var(--o);font-size:20px;letter-spacing:-.02em;}
+  .rcard .rb p{font-size:13.5px;color:var(--g);line-height:1.45;}
+  .rcard .rb a{margin-top:auto;padding-top:6px;font-size:13.5px;font-weight:700;color:var(--o);display:inline-flex;align-items:center;gap:6px;}
+  .rcard .rb a:hover{text-decoration:underline;}
+  .refs-note{margin-top:18px;font-size:12.5px;color:var(--g-2);line-height:1.5;}
+  .refs-cta{margin-top:18px;}
+  .refs-cta .btn{width:100%;}
+  @media (max-width:680px){
+    .refs-box{top:auto;height:92vh;height:92dvh;width:100%;border-radius:26px 26px 0 0;transform:translateY(100%);}
+    .refs-head{padding:18px 18px 14px;border-radius:26px 26px 0 0;}
+    .refs-head h3{font-size:24px;}
+    .refs-tabs{padding:10px 18px;}
+    .refs-body{padding:16px 14px calc(30px + env(safe-area-inset-bottom));}
+    .rlist{grid-template-columns:1fr;}
+    .rcard.ours{flex-direction:column;}
+    .rcard.ours .rph{flex:none;aspect-ratio:16/10;min-height:0;}
+    .rcard{flex-direction:row;}
+    .rcard .rph{flex:0 0 38%;aspect-ratio:auto;min-height:130px;}
+    .rcard.ours .rph{flex:none;}
+    .cov .see{width:100%;}
+  }
+
+  /* ===== "there is more to see" on project & coverture cards ===== */
+  .proj{cursor:pointer;transition:transform .45s var(--ease),box-shadow .45s var(--ease);}
+  .proj:hover{transform:translateY(-6px);box-shadow:0 26px 54px rgba(60,40,20,.16);}
+  .proj .media > img{transition:transform 1.1s var(--ease),filter .5s;}
+  .proj:hover .media > img{transform:scale(1.07);}
+  .peek{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:16px;background:linear-gradient(to top,rgba(20,20,20,.78) 0%,rgba(20,20,20,.35) 55%,rgba(20,20,20,.15) 100%);opacity:0;transition:opacity .4s var(--ease);pointer-events:none;}
+  .peek .cta{display:inline-flex;align-items:center;gap:10px;background:#fff;color:var(--ink);font-weight:800;font-size:15px;padding:13px 20px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.25);transform:translateY(14px) scale(.94);transition:transform .45s var(--ease);}
+  .peek .cta .ico{width:18px;height:18px;color:var(--o);}
+  .peek .cta b{display:inline-grid;place-items:center;min-width:26px;height:26px;border-radius:999px;background:var(--o);color:#fff;font-size:13px;padding:0 7px;}
+  .peek .strip{position:absolute;left:0;right:0;bottom:16px;display:flex;justify-content:center;gap:8px;}
+  .peek .strip img{position:static!important;width:70px!important;height:52px!important;border-radius:10px;object-fit:cover;border:2px solid #fff;box-shadow:0 6px 14px rgba(0,0,0,.3);opacity:0;transform:translateY(22px);transition:opacity .35s,transform .45s var(--ease);}
+  .proj:hover .peek,.proj:focus-within .peek{opacity:1;}
+  .proj:hover .peek .cta,.proj:focus-within .peek .cta{transform:none;}
+  .proj:hover .peek .strip img,.proj:focus-within .peek .strip img{opacity:1;transform:none;}
+  .proj:hover .peek .strip img:nth-child(2){transition-delay:.05s} .proj:hover .peek .strip img:nth-child(3){transition-delay:.1s}
+  .proj:hover .peek .strip img:nth-child(4){transition-delay:.15s} .proj:hover .peek .strip img:nth-child(5){transition-delay:.2s}
+  .proj:hover .thumb,.proj:hover .zoom{opacity:0;}
+  .proj .thumb,.proj .zoom{transition:opacity .3s,background .2s,color .2s;}
+  .proj .more{display:inline-flex;align-items:center;gap:8px;margin-top:6px;font-weight:800;font-size:15px;color:var(--o);align-self:flex-start;}
+  .proj .more .ico{width:18px;height:18px;transition:transform .35s var(--ease);}
+  .proj .more .n{display:inline-grid;place-items:center;min-width:24px;height:24px;border-radius:999px;background:var(--o-soft);font-size:12.5px;padding:0 7px;}
+  .proj:hover .more .ico{transform:translateX(6px);}
+  .cov .media .peek .cta{font-size:14.5px;}
+  .cov:hover .peek,.cov:focus-within .peek{opacity:1;}
+  .cov:hover .peek .cta{transform:none;}
+  .cov .peek{background:linear-gradient(to top,rgba(20,20,20,.55),rgba(20,20,20,.15));}
+  /* touch screens: no hover, so the cards invite a tap */
+  @media (hover:none){
+    .peek{display:none;}
+    .proj .thumb{animation:thumbPulse 2.6s ease-in-out infinite;}
+    @keyframes thumbPulse{0%,100%{box-shadow:0 6px 16px rgba(0,0,0,.25),0 0 0 0 rgba(176,80,16,.55);}50%{box-shadow:0 6px 16px rgba(0,0,0,.25),0 0 0 8px rgba(176,80,16,0);}}
+    .proj:active,.cov:active{transform:scale(.985);}
+  }
+  @media (prefers-reduced-motion:reduce){.proj .thumb{animation:none;}}
+
+  @media (hover:none){
+    .peek{display:flex;}
+    .proj.peeking .peek,.cov.peeking .peek{opacity:1;}
+    .proj.peeking .peek .cta,.cov.peeking .peek .cta{transform:none;}
+    .proj.peeking .peek .strip img{opacity:1;transform:none;}
+    .proj.peeking .peek .strip img:nth-child(2){transition-delay:.08s} .proj.peeking .peek .strip img:nth-child(3){transition-delay:.16s}
+    .proj.peeking .peek .strip img:nth-child(4){transition-delay:.24s} .proj.peeking .peek .strip img:nth-child(5){transition-delay:.32s}
+    .proj.peeking .media > img{transform:scale(1.06);}
+    .proj.peeking .thumb{opacity:0;}
+    .peek .strip img{width:56px!important;height:42px!important;}
+  }
+
+  /* LOGO INTRO */
+  .intro{position:fixed;inset:0;z-index:300;background:#FAF7F3;display:grid;place-items:center;transition:opacity .6s var(--ease),visibility .6s;}
+  .intro.done{opacity:0;visibility:hidden;}
+  .intro-in{display:flex;flex-direction:column;align-items:center;gap:26px;}
+  .intro img{width:min(260px,62vw);height:auto;opacity:0;transform:scale(.84);filter:blur(8px);animation:logoIn 1s var(--ease) .1s forwards;}
+  .intro-bar{width:150px;height:4px;border-radius:4px;background:var(--o-soft);overflow:hidden;}
+  .intro-bar span{display:block;height:100%;width:100%;background:var(--o);transform:scaleX(0);transform-origin:left;animation:barIn 1.2s var(--ease) .25s forwards;}
+  @keyframes logoIn{to{opacity:1;transform:none;filter:blur(0);}}
+  @keyframes barIn{to{transform:scaleX(1);}}
+  body.intro-lock{overflow:hidden;}
+  @media (prefers-reduced-motion:reduce){.intro{display:none;}}
+
+  /* LIGHTBOX */
+  .modal{position:fixed;inset:0;z-index:150;display:grid;place-items:center;padding:16px;visibility:hidden;opacity:0;transition:opacity .3s,visibility .3s;}
+  .modal.open{visibility:visible;opacity:1;}
+  .modal-bg{position:absolute;inset:0;background:rgba(30,30,30,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);}
+  .modal-box{position:relative;background:#fff;border-radius:var(--r);overflow:hidden;width:min(1000px,100%);max-height:92vh;display:flex;flex-direction:column;transform:translateY(20px) scale(.98);transition:transform .4s var(--ease);}
+  .modal.open .modal-box{transform:none;}
+  .modal-img{position:relative;background:#141414;height:min(62vw,64vh);flex:none;}
+  .modal-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transition:opacity .25s;}
+  .mnav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;border:0;background:#fff;display:grid;place-items:center;cursor:pointer;}
+  .mnav:hover{background:var(--o);color:#fff;}
+  .mnav.prev{left:12px;} .mnav.next{right:12px;}
+  .mcount{position:absolute;left:14px;bottom:12px;}
+  .modal-body{padding:22px 26px 26px;overflow:auto;}
+  .modal-body h3{font-size:24px;}
+  .modal-body p{color:var(--g);margin-top:6px;}
+  .modal-x{position:absolute;top:12px;right:12px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:#fff;cursor:pointer;display:grid;place-items:center;box-shadow:0 6px 16px rgba(0,0,0,.2);}
+  .modal-x:hover{background:var(--o);color:#fff;}
+
+  /* MENU SHEET (phone) */
+  .sheet{position:fixed;inset:0;z-index:120;visibility:hidden;}
+  .sheet.open{visibility:visible;}
+  .sheet-bg{position:absolute;inset:0;background:rgba(30,30,30,.45);opacity:0;transition:opacity .3s;}
+  .sheet.open .sheet-bg{opacity:1;}
+  .sheet-box{position:absolute;left:0;right:0;bottom:0;background:var(--bg);border-radius:28px 28px 0 0;padding:14px 18px calc(22px + env(safe-area-inset-bottom));transform:translateY(100%);transition:transform .4s var(--ease);}
+  .sheet.open .sheet-box{transform:none;}
+  .sheet-box .grab{width:44px;height:5px;border-radius:5px;background:var(--line);margin:0 auto 16px;}
+  .sheet nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .sheet nav a{background:#fff;border-radius:20px;padding:18px 16px;display:flex;flex-direction:column;gap:8px;box-shadow:var(--sh);}
+  .sheet nav a .ico{color:var(--o);width:24px;height:24px;}
+  .sheet nav a b{font-family:var(--head);font-size:19px;letter-spacing:-.01em;}
+  .sheet .acts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px;}
+
+  /* REVEAL */
+  .js .rv{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease);}
+  .js .rv.show{opacity:1;transform:none;}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;} .js .rv{opacity:1;transform:none;} *{transition:none!important;animation:none!important;}}
+
+  /* TABLET */
+  @media (max-width:1100px){
+    .links{display:none;}
+    .nav-act .call-t{display:none;}
+    .h-main,.h-photo{grid-column:span 12;grid-row:auto;min-height:0;}
+    .h-photo{aspect-ratio:16/10;}
+    .fig{grid-column:span 6;}
+    .pgrid,.cgrid,.sgrid{grid-template-columns:1fr 1fr;}
+    .proj.wide{grid-template-columns:1fr;}
+    .e-txt,.e-photo,.e-mission,.why{grid-column:span 12;}
+    .e-photo{aspect-ratio:16/9;min-height:0;}
+    .why{grid-template-columns:repeat(3,1fr);}
+    .method{grid-template-columns:1fr;}
+    .steps{grid-template-columns:repeat(3,1fr);}
+    .steps li::after{display:none;}
+    .safe{grid-template-columns:1fr 1fr;}
+    .safe-main{grid-column:1/-1;}
+    .c-cta,.c-form,.c-phones,.c-mails,.c-addr{grid-column:span 12;}
+    .foot{grid-template-columns:1fr 1fr;}
+    .foot > div:first-child{grid-column:1/-1;}
+    .sec-h p{display:none;}
+  }
+
+  /* PHONE — the main target */
+  @media (max-width:680px){
+    .wrap{padding:0 14px;}
+    section{padding:34px 0;scroll-margin-top:118px;}
+    .tile{padding:22px;border-radius:24px;}
+    .tile.proj,.tile.cov,.tile.ph{padding:0;}
+    .only-m{display:inline-flex!important;}
+    .hide-m{display:none!important;}
+    .nav{height:62px;gap:10px;}
+    .logo img{height:42px;}
+    .nav-act .btn{padding:0;width:44px;height:44px;border-radius:50%;}
+    .nav-act .btn span{display:none;}
+    .tabs{display:block;border-top:1px solid var(--line);}
+    .tabs ul{list-style:none;display:flex;gap:6px;overflow-x:auto;padding:9px 14px;scrollbar-width:none;}
+    .tabs ul::-webkit-scrollbar{display:none;}
+    .tabs a{display:block;padding:8px 14px;border-radius:999px;font-weight:700;font-size:14px;background:#fff;border:1px solid var(--line);white-space:nowrap;color:var(--g);transition:background .2s,color .2s,border-color .2s;}
+    .tabs a.active{background:var(--ink);border-color:var(--ink);color:#fff;}
+
+    .bento,.egrid,.cgrid2{gap:12px;}
+    .hero{padding:12px 0 20px;}
+    .h-main{padding:24px 22px 22px;gap:20px;}
+    .h-main::after{width:200px;height:200px;right:-70px;bottom:-70px;}
+    .h-main h1{font-size:clamp(34px,10.2vw,46px);}
+    .h-main p{font-size:16.5px;margin-top:14px;}
+    .h-main .acts{display:grid;grid-template-columns:1fr;gap:8px;}
+    .h-main .acts .btn{padding:16px;}
+    .h-photo{aspect-ratio:4/3;}
+    .fig{grid-column:span 6;min-height:0;padding:18px;gap:10px;}
+    .fig b{font-size:clamp(24px,7.4vw,32px);white-space:nowrap;}
+    .fig .k{font-size:11.5px;}
+    .fig > span{font-size:13px;}
+
+    .sec-h{grid-template-columns:auto 1fr;gap:12px;margin-bottom:16px;align-items:center;}
+    .sec-h .num{width:40px;height:40px;border-radius:13px;font-size:13px;}
+    .sec-h h2{font-size:clamp(27px,7.6vw,34px);}
+
+    /* everything one under the other */
+    .pgrid,.cgrid,.sgrid{grid-template-columns:1fr;gap:12px;}
+    .proj.wide .media{min-height:0;aspect-ratio:4/3;}
+    .proj .body,.proj.wide .body{padding:20px 20px 22px;gap:10px;}
+    .proj h3,.proj.wide h3{font-size:23px;}
+    .proj .big b{font-size:34px;}
+    .proj p{font-size:15px;}
+    .cov .body{padding:20px 20px 22px;}
+    .cov h3{font-size:27px;}
+    .cov-note{padding:20px;}
+    .cov-note .btn{width:100%;}
+    .e-txt{padding:24px 20px;}
+    .e-txt > p{font-size:16px;}
+    .e-txt li{padding:12px 14px;font-size:15px;}
+    .why{grid-template-columns:1fr 1fr;gap:12px;}
+    .why .tile{padding:18px;}
+    .why b{font-size:16.5px;}
+    .why p{font-size:13.5px;}
+    .svc{padding:20px;flex-direction:row;flex-wrap:wrap;gap:6px 14px;}
+    .svc .hd{flex-direction:column;}
+    .svc .i{width:48px;height:48px;border-radius:15px;}
+    .svc .n{display:none;}
+    .svc > div:not(.hd){flex:1;min-width:0;}
+    .svc h3{font-size:19px;margin-top:0;}
+    .svc p{font-size:14.5px;margin-top:4px;}
+    .method{padding:22px 20px;gap:16px;}
+    .method h3{font-size:22px;}
+    .steps{grid-template-columns:1fr;gap:0;}
+    .steps li{display:flex;align-items:center;gap:14px;background:none;padding:10px 0;border-bottom:1px dashed var(--line);border-radius:0;}
+    .steps li:last-child{border-bottom:0;}
+    .steps li::before{margin:0;flex:none;}
+    .safe{grid-template-columns:1fr 1fr;gap:12px;}
+    .safe-main{padding:24px 22px;}
+    .safe .n b{font-size:52px;}
+    .safe .n p{font-size:14.5px;}
+    .safe .n{padding:20px;}
+    .c-cta{gap:14px;}
+    .c-form .fields{grid-template-columns:1fr;}
+    .plist{grid-template-columns:1fr 1fr;}
+    .plist a{padding:13px 12px;font-size:14.5px;}
+    .plist a .ico{display:none;}
+    .c-mails a{font-size:14.5px;word-break:normal;overflow-wrap:anywhere;}
+    .foot{grid-template-columns:1fr;gap:12px;}
+    .foot .tile{padding:22px;}
+    footer{padding:10px 0 calc(100px + env(safe-area-inset-bottom));}
+    .copy{justify-content:center;text-align:center;}
+
+    .callbar{display:grid;grid-template-columns:1.3fr 1fr;gap:8px;position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:55;padding:8px;background:rgba(255,255,255,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:999px;box-shadow:0 12px 34px rgba(60,40,20,.2);transform:translateY(160%);transition:transform .4s var(--ease);}
+    .callbar.on{transform:none;}
+    .callbar .btn{padding:14px 10px;box-shadow:none;}
+    .modal-img{height:58vh;}
+  }
+  @media (max-width:360px){
+    .fig b{font-size:27px;}
+    .why{grid-template-columns:1fr;}
+    .plist{grid-template-columns:1fr;}
+  }
+
+  /* ================= PHONE REDESIGN (overrides) ================= */
+  @media (max-width:680px){
+    body{font-size:16px;line-height:1.6;background:#FAF7F3;}
+    .wrap{padding:0 20px;}
+    section{padding:44px 0;scroll-margin-top:116px;}
+    h1,h2,h3{letter-spacing:-.02em;}
+    p{text-wrap:pretty;}
+
+    /* header + tabs */
+    .nav{height:66px;}
+    .logo img{height:42px;}
+    .nav-act .btn{width:42px;height:42px;}
+    .tabs ul{padding:8px 20px 10px;gap:8px;}
+    .tabs a{padding:7px 14px;font-size:13.5px;}
+
+    /* section headings: simple, left aligned */
+    .sec-h{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:22px;}
+    .sec-h .num{width:auto;height:auto;background:none;color:var(--o);font-size:13px;letter-spacing:.14em;border-radius:0;display:flex;align-items:center;gap:10px;}
+    .sec-h .num::after{content:"";width:28px;height:2px;background:var(--o);border-radius:2px;}
+    .sec-h h2{font-size:30px;line-height:1.1;}
+    .sec-h p{display:block;text-align:left;font-size:15.5px;max-width:none;margin-top:2px;}
+
+    /* HERO: photo first, text on the page */
+    .hero{padding:0 0 12px;}
+    .hero .wrap{padding:0;}
+    .bento{display:flex;flex-direction:column;gap:0;}
+    .h-photo{order:-1;border-radius:0 0 30px 30px;aspect-ratio:5/4;box-shadow:none;}
+    .h-photo .chip{left:20px;bottom:18px;font-size:12.5px;}
+    .h-photo .tag2{right:20px;top:16px;left:auto;bottom:auto;}
+    .h-main{background:none;box-shadow:none;border-radius:0;padding:26px 20px 8px;gap:18px;min-height:0;}
+    .h-main::after{display:none;}
+    .h-main .chips{display:none;}
+    .h-main h1{font-size:36px;line-height:1.08;}
+    .h-main h1 .u svg{bottom:-7px;height:10px;}
+    .h-main p{font-size:16.5px;margin-top:14px;color:#5a5a5a;}
+    .h-main .acts{grid-template-columns:1fr;gap:10px;margin-top:4px;}
+    .h-main .acts .btn{padding:15px 12px;font-size:15px;}
+    .h-main .acts .btn{padding:16px;}
+
+    /* COUVERTURE cards: compact */
+    .cgrid{gap:16px;}
+    .cov{border-radius:24px;box-shadow:0 1px 2px rgba(60,40,20,.04),0 8px 24px rgba(60,40,20,.06);}
+    .cov .media{aspect-ratio:16/9;}
+    .cov .media .fallback{width:62%;}
+    .cov .body{padding:18px 20px 20px;gap:10px;}
+    .cov h3{font-size:26px;}
+    .cov .row .chip{font-size:12px;padding:6px 11px;}
+    .cov p{font-size:15px;line-height:1.55;}
+    .cov ul{gap:7px;margin:2px 0 4px;}
+    .cov li{font-size:14.5px;font-weight:500;line-height:1.45;}
+    .cov .see{width:100%;padding:14px;margin-top:6px;}
+    .tile.cov-note{background:none;box-shadow:none;border-radius:0;padding:6px 0 0;margin-top:14px;gap:14px;}
+    .cov-note p{font-size:14.5px;font-weight:500;color:var(--g);}
+    .cov-note p br + span,.cov-note p span{display:block;margin-top:4px;}
+
+    /* PROJETS: clean cards, short text */
+    .pgrid{gap:20px;}
+    .proj{border-radius:24px;}
+    .proj .media,.proj.wide .media{aspect-ratio:4/3!important;}
+    .proj .top{left:14px;top:14px;right:14px;}
+    .proj .top .chip.white:not(.live){display:none;}
+    .proj .top .chip.live{color:var(--o);}
+    .proj .top .chip{font-size:11.5px;padding:6px 11px;}
+    .proj .thumb{width:74px;height:56px;left:14px;bottom:14px;border-radius:12px;}
+    .proj .thumb i{font-size:14px;}
+    .proj .zoom{display:none;}
+    .proj .body,.proj.wide .body{padding:18px 20px 20px;gap:8px;}
+    .proj .body > .chip:first-child{align-self:flex-start;font-size:12px;padding:5px 11px;}
+    .proj h3,.proj.wide h3{font-size:22px;line-height:1.2;}
+    .proj .big{gap:2px 8px;}
+    .proj .big b{font-size:30px;}
+    .proj .big span{font-size:13.5px;}
+    .proj p{font-size:15px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+    .proj .more{margin-top:4px;font-size:15px;}
+    .proj .meta{padding-top:4px;gap:6px;}
+    .proj .meta .chip{font-size:12px;padding:5px 10px;}
+    .proj .meta .chip:nth-child(n+3){display:none;}
+
+    /* ENTREPRISE */
+    .egrid{display:flex;flex-direction:column;gap:18px;}
+    .e-txt{background:none;box-shadow:none;padding:0;border-radius:0;}
+    .e-txt h3{font-size:24px;line-height:1.2;}
+    .e-txt > p{font-size:16px;margin-top:12px;}
+    .e-txt ul{gap:0;margin-top:18px;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 1px 2px rgba(60,40,20,.04),0 8px 24px rgba(60,40,20,.05);}
+    .e-txt li{background:none;border-radius:0;padding:14px 16px;font-weight:500;font-size:15px;line-height:1.45;border-bottom:1px solid var(--line);}
+    .e-txt li:last-child{border-bottom:0;}
+    .e-photo{aspect-ratio:4/3;border-radius:24px;}
+    .e-mission{padding:22px 20px;border-radius:24px;}
+    .e-mission p{font-size:19px;}
+    .why{display:block;background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 1px 2px rgba(60,40,20,.04),0 8px 24px rgba(60,40,20,.05);}
+    .why .tile{display:grid;grid-template-columns:40px 1fr;column-gap:12px;align-items:start;padding:16px 18px;border-radius:0;box-shadow:none;border-bottom:1px solid var(--line);}
+    .why .tile:last-child{border-bottom:0;}
+    .why .tile > svg{grid-row:1/3;width:24px!important;height:24px!important;margin:2px 0 0 8px;color:var(--o);}
+    .why b{margin-top:1px;font-size:16px;}
+    .why p{font-size:14px;margin-top:2px;}
+
+    /* SERVICES: one clean list */
+    .sgrid{gap:0;}
+    .svc{border-radius:0;box-shadow:none;padding:18px;border-bottom:1px solid var(--line);flex-wrap:nowrap;align-items:flex-start;gap:14px;}
+    .svc:hover{transform:none;box-shadow:none;}
+    .svc:first-child{border-radius:24px 24px 0 0;}
+    .svc:nth-child(9){border-radius:0 0 24px 24px;border-bottom:0;}
+    .svc .i{width:42px;height:42px;border-radius:12px;}
+    .svc .i .ico{width:21px;height:21px;}
+    .svc h3{font-size:17px;line-height:1.25;}
+    .svc p{font-size:14px;line-height:1.5;margin-top:4px;}
+    .method{margin-top:18px;border-radius:24px;padding:22px 20px;}
+    .method h3{font-size:21px;}
+    .steps li{padding:9px 0;font-size:15px;}
+    .steps li::before{width:28px;height:28px;font-size:13px;}
+
+    /* SÉCURITÉ */
+    .safe{gap:12px;}
+    .safe-main{padding:24px 20px;border-radius:24px;}
+    .safe-main h3{font-size:24px;line-height:1.15;}
+    .safe-main p{font-size:15px;}
+    .safe .n{padding:18px;min-height:0;gap:12px;border-radius:22px;}
+    .safe .n .ico{width:26px;height:26px;}
+    .safe .n b{font-size:42px;}
+    .safe .n p{font-size:13.5px;font-weight:500;line-height:1.4;color:var(--g);}
+
+    /* CONTACT */
+    .cgrid2{display:flex;flex-direction:column;gap:16px;}
+    .c-cta{padding:24px 20px;border-radius:24px;}
+    .c-cta h3{font-size:26px;}
+    .c-cta > p{font-size:15px;}
+    .quick a{padding:12px 14px;}
+    .quick small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:210px;}
+    .c-form{padding:24px 20px;border-radius:24px;}
+    .c-form h3{font-size:24px;}
+    .types{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+    .types label{display:flex;align-items:center;justify-content:center;text-align:center;min-height:48px;padding:8px 10px;font-size:14px;line-height:1.25;border-radius:14px;}
+    .f label{font-size:13px;}
+    .c-phones,.c-mails,.c-addr{padding:20px;border-radius:22px;}
+    .c-mails a{font-size:15px;font-weight:500;}
+    .c-addr p{font-weight:500;}
+
+    footer{padding:16px 0 calc(100px + env(safe-area-inset-bottom));}
+    .foot .tile{border-radius:22px;}
+  }
+</style>
+</head>
+<body class="intro-lock">
+<div class="intro" id="intro" aria-hidden="true"><div class="intro-in"><img src="images/logo-ipcm-boutema.png" alt=""><div class="intro-bar"><span></span></div></div></div>
+
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M22 7l-10 6L2 7"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></g></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M4 8h16M4 16h10"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></g></symbol>
+    <symbol id="i-tick" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-beam" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 4h16M4 20h16M12 4v16"/></symbol>
+    <symbol id="i-build" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V9l7-5 7 5v12M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-roof" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 12c3-5 7-7 10-7s7 2 10 7M4 12v8h16v-8"/></symbol>
+    <symbol id="i-crane" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 21V3h10l4 4M6 7h14M16 7v6M14 13h4v3h-4z"/></symbol>
+    <symbol id="i-stairs" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 20h4v-6h4V9h4V4h4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></g></symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/></g></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></g></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l10 5-10 5L2 7z"/><path d="M2 12l10 5 10-5M2 17l10 5 10-5"/></g></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></g></symbol>
+    <symbol id="i-weight" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="6" r="2.5"/><path d="M6 9h12l2 12H4z"/></g></symbol>
+    <symbol id="i-ruler" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h18v8H3z"/><path d="M7 8v3M11 8v4M15 8v3M19 8v4"/></g></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></g></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+  </defs>
+</svg>
+
+<header id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#accueil" aria-label="IPCM BOUTEMA — Accueil"><img src="images/logo-ipcm-boutema.png" alt="IPCM BOUTEMA"></a>
+    <ul class="links" id="links">
+      <li><a href="#entreprise">Entreprise</a></li>
+      <li><a href="#couverture">Couverture</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-act">
+      <a class="btn btn-w call-t" href="tel:+213550700196" aria-label="Appeler"><svg class="ico"><use href="#i-phone"/></svg><span>0550 70 01 96</span></a>
+      <a class="btn btn-o hide-m" href="#contact">Demander une étude</a>
+      <a class="btn btn-w only-m" href="tel:+213550700196" aria-label="Appeler"><svg class="ico"><use href="#i-phone"/></svg></a>
+      <button class="btn btn-w only-m" id="menuBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="sheet"><svg class="ico"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <ul id="tabs">
+      <li><a href="#entreprise">Entreprise</a></li>
+      <li><a href="#couverture">Couverture</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#securite">Sécurité</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="accueil">
+  <div class="wrap bento">
+    <div class="tile h-main rv">
+      <div>
+        <div class="chips"><span class="chip dot">Construction métallique</span><span class="chip line">Blida · toute l'Algérie</span></div>
+      </div>
+      <div>
+        <h1>Construction <span class="u"><span>métallique</span><svg viewBox="0 0 200 14" preserveAspectRatio="none" aria-hidden="true"><path d="M2 10 C 50 2, 150 2, 198 8" fill="none" stroke="#B05010" stroke-width="4" stroke-linecap="round" opacity=".35"/></svg></span> &amp; couvertures techniques.</h1>
+        <p>Charpentes, couvertures et bardages pour hangars, centres commerciaux, équipements publics et bâtiments industriels — de l'étude jusqu'à la finition.</p>
+      </div>
+      <div class="acts">
+        <a class="btn btn-o" href="#contact">Demander une étude <svg class="ico"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-w" href="#projets">Voir nos projets</a>
+      </div>
+    </div>
+    <div class="tile ph h-photo rv">
+      <img id="img-hero" src="images/safex-facade.jpg" alt="Palais des Expositions SAFEX, Alger — réalisé par IPCM BOUTEMA" style="object-position:center 55%;">
+      <span class="chip dark"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Palais des Expositions SAFEX · Alger</span>
+    </div>
+  </div>
+</section>
+
+<!-- COMPANY -->
+<section id="entreprise">
+  <div class="wrap">
+    <div class="sec-h rv"><span class="num">01</span><h2>L'<em>entreprise</em></h2><p>Une structure complète, basée à Blida, active dans toute l'Algérie.</p></div>
+    <div class="egrid">
+      <div class="tile e-txt rv">
+        <h3>Une entreprise solide, au service de <em>vos projets</em>.</h3>
+        <p>Créée par Abdelkader BOUTEMA, IPCM BOUTEMA est spécialisée dans la construction métallique, le béton armé et l'industrie. Avec ses propres équipes — techniciens, chefs de chantier, soudeurs et monteurs qualifiés — et ses moyens de levage, elle assure la conception, la fabrication, la construction et l'installation de vos ouvrages.</p>
+        <p>Notre engagement : la rigueur, le savoir-faire et l'innovation, pour des solutions techniques fiables, personnalisées et durables.</p>
+      </div>
+      <div class="tile ph e-photo rv"><img src="images/blida-vue-ville.jpg" alt="Grand bâtiment à structure métallique et couverture courbe" style="object-position:center 60%;"><span class="chip dark"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Blida · toute l'Algérie</span></div>
+      <div class="tile orange e-mission rv"><small>Notre mission</small><span class="chip" style="align-self:flex-start;background:rgba(255,255,255,.18);color:#fff">Entreprise classée Catégorie 4</span><p>Être une entreprise de référence en construction métallique en Algérie, reconnue pour la qualité, la rapidité et la sécurité de ses réalisations.</p></div>
+      <div class="why">
+        <div class="tile rv"><svg class="ico"><use href="#i-grid"/></svg><b>Bien organisée</b><p>RH, finance, juridique, achats et technique.</p></div>
+        <div class="tile rv"><svg class="ico"><use href="#i-layers"/></svg><b>Savoir-faire complet</b><p>Une équipe qualifiée et expérimentée, un seul interlocuteur.</p></div>
+        <div class="tile rv"><svg class="ico"><use href="#i-roof"/></svg><b>Couvertures de pointe</b><p>SKINZIP®, BT 114 et BT 850.</p></div>
+        <div class="tile rv"><svg class="ico"><use href="#i-team"/></svg><b>Mobilisation flexible</b><p>Équipe permanente, renforcée selon le projet.</p></div>
+        <div class="tile rv"><svg class="ico"><use href="#i-map"/></svg><b>Toute l'Algérie</b><p>Nous intervenons dans toutes les wilayas.</p></div>
+        <div class="tile rv"><svg class="ico"><use href="#i-clock"/></svg><b>Respect des délais</b><p>Travail soigné, sécurité stricte et coordination de chantier optimale.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COVERINGS -->
+<section id="couverture">
+  <div class="wrap">
+    <div class="sec-h rv"><span class="num">02</span><h2>Couvertures <em>techniques</em></h2><p>Trois systèmes maîtrisés pour les grandes toitures et les architectures exigeantes.</p></div>
+    <div class="cgrid">
+      <article class="tile cov rv" data-refs="skinzip" tabindex="0" role="button" aria-label="Voir les projets réalisés avec ce système">
+        <div class="media">
+          <svg class="fallback" viewBox="0 0 300 70" aria-hidden="true"><path d="M0 55 H48 V20 a4 4 0 0 1 8 0 V55 H128 V20 a4 4 0 0 1 8 0 V55 H208 V20 a4 4 0 0 1 8 0 V55 H300" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+          <img src="https://www.blocotelha.com/files/uploads/2024/03/project-Skinzip-5.webp" alt="Couverture SKINZIP® à joint debout" loading="lazy" referrerpolicy="no-referrer" onerror="this.nextElementSibling.remove();this.remove()"><span class="credit">Photo : Blocotelha</span>
+        </div>
+        <div class="body">
+          <div class="row"><h3>SKINZIP<sup>®</sup></h3><span class="chip">Joint debout</span></div>
+          <p>Longs panneaux continus assemblés mécaniquement, fixés par clips en aluminium dissimulés.</p>
+          <ul><li><svg class="ico"><use href="#i-tick"/></svg>Panneaux profilés sur site, 60 m et plus</li><li><svg class="ico"><use href="#i-tick"/></svg>Très peu de joints transversaux</li><li><svg class="ico"><use href="#i-tick"/></svg>Formes complexes et faibles pentes</li></ul>
+          <button class="btn btn-w see" type="button" data-refs="skinzip">Voir les projets <span class="count">7</span><svg class="ico"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+      <article class="tile cov rv" data-refs="bt114" tabindex="0" role="button" aria-label="Voir les projets réalisés avec ce système">
+        <div class="media">
+          <svg class="fallback" viewBox="0 0 300 70" aria-hidden="true"><path d="M0 55 H20 L38 15 H62 L80 55 H100 L118 15 H142 L160 55 H180 L198 15 H222 L240 55 H260 L278 15 H300" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+          <img src="https://www.blocotelha.com/files/uploads/2024/07/Autoportante-1.webp" alt="Couverture autoportante BT 114" loading="lazy" referrerpolicy="no-referrer" onerror="this.nextElementSibling.remove();this.remove()"><span class="credit">Photo : Blocotelha</span>
+        </div>
+        <div class="body">
+          <div class="row"><h3>BT 114</h3><span class="chip">Autoportant</span></div>
+          <p>Couverture profilée autoportante pour grandes portées, droite ou courbe.</p>
+          <ul><li><svg class="ico"><use href="#i-tick"/></svg>Le profil travaille comme structure</li><li><svg class="ico"><use href="#i-tick"/></svg>Moins d'appuis intermédiaires</li><li><svg class="ico"><use href="#i-tick"/></svg>Montage de toitures courbes</li><li><svg class="ico"><use href="#i-tick"/></svg>Jusqu'à 26 m de portée (profil trapézoïdal)</li><li><svg class="ico"><use href="#i-tick"/></svg>Posé chez nous : Piscine Olympique (Rouiba) et Blida Mall (Khazrouna)</li></ul>
+          <button class="btn btn-w see" type="button" data-refs="bt114">Voir les projets <span class="count">5</span><svg class="ico"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+      <article class="tile cov rv" data-refs="bt850" tabindex="0" role="button" aria-label="Voir les projets réalisés avec ce système">
+        <div class="media">
+          <svg class="fallback" viewBox="0 0 300 70" aria-hidden="true"><path d="M0 62 H18 L44 6 H96 L122 62 H158 L184 6 H236 L262 62 H300" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+          <img src="https://www.blocotelha.com/files/uploads/2024/03/Autoportante-5.webp" alt="Couverture autoportante grande portée BT 850" loading="lazy" referrerpolicy="no-referrer" onerror="this.nextElementSibling.remove();this.remove()"><span class="credit">Photo : Blocotelha</span>
+        </div>
+        <div class="body">
+          <div class="row"><h3>BT 850</h3><span class="chip">Grande portée</span></div>
+          <p>Acier profilé autoportant pour grands bâtiments industriels et commerciaux.</p>
+          <ul><li><svg class="ico"><use href="#i-tick"/></svg>Espaces intérieurs dégagés</li><li><svg class="ico"><use href="#i-tick"/></svg>Configurations droites et courbes</li><li><svg class="ico"><use href="#i-tick"/></svg>Isolation, rives, solins et drainage</li></ul>
+          <button class="btn btn-w see" type="button" data-refs="bt850">Voir les projets <span class="count">3</span><svg class="ico"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+    </div>
+    <div class="tile tint cov-note rv">
+      <p>Touchez une couverture pour voir les projets réalisés avec ce système.<br><span style="font-weight:500;color:var(--g)">+ Nous posons aussi toutes les couvertures classiques utilisées en Algérie.</span></p>
+      <a class="btn btn-o" href="#contact">Étudier ma toiture <svg class="ico"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projets">
+  <div class="wrap">
+    <div class="sec-h rv"><span class="num">03</span><h2>Nos <em>projets</em></h2><p>Quatre chantiers de référence, de la charpente lourde à la couverture de grande surface.</p></div>
+    <div class="pgrid">
+      <article class="tile proj wide rv">
+        <div class="media" data-open="safex" data-i="0" tabindex="0" role="button" aria-label="Agrandir la photo" style="display:block;cursor:zoom-in"><img id="img-safex" src="images/safex-aerien.jpg" alt="Palais des Expositions SAFEX — couverture SKINZIP®" style="position:absolute;inset:0;object-position:center 58%;"><span class="thumb" data-open="safex" data-i="2" role="button" tabindex="0" aria-label="Voir toutes les photos"><img data-src-from="img-sx-roof" src="" alt="Couverture SKINZIP® du Palais des Expositions"><i>+4</i></span><div class="top"><span class="chip white dot live">En cours</span><span class="chip dark">BLOCOTELHA × IPCM BOUTEMA</span></div><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></div>
+        <div class="body">
+          <span class="chip">P-01 · Équipement public</span>
+          <h3>Palais des Expositions — SAFEX</h3>
+          <div class="big"><b>30 000 m²</b><span>de couverture SKINZIP®</span></div>
+          <p>Installation de la couverture SKINZIP® à joint debout du nouveau Palais des Expositions des Pins Maritimes : plaques profilées de plus de 60 m façonnées directement sur site, sans jonction intermédiaire. Un chantier national de référence, conçu pour accueillir les grands salons internationaux d'Alger.</p>
+          <div class="meta"><span class="chip line"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Alger</span><span class="chip line">Mai – déc. 2026</span><span class="chip line">Joint debout</span></div>
+        </div>
+      </article>
+
+      <article class="tile proj rv">
+        <div class="media" data-open="rouiba" data-i="0" tabindex="0" role="button" aria-label="Agrandir la photo"><img id="img-rouiba" src="images/rouiba-charpente.jpg" alt="Piscine Olympique de Rouiba" style="object-position:center 70%;"><div class="top"><span class="chip white dot">Réalisé</span><span class="chip dark">BLOCOTELHA × IPCM BOUTEMA</span></div>
+          <span class="thumb" data-open="rouiba" data-i="1" role="button" tabindex="0" aria-label="Voir toutes les photos"><img data-src-from="img-rouiba-roof" src="" alt="Couverture de la Piscine Olympique de Rouiba"><i>+3</i><img id="img-rouiba2" src="images/rouiba-detail.jpg" alt="" style="display:none"></span>
+          <span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></div>
+        <div class="body">
+          <span class="chip">P-02 · Équipement public</span>
+          <h3>Piscine Olympique</h3>
+          <div class="big"><b>65,5 m</b><span>de portée — poutres PRS</span></div>
+          <p>Poutres PRS de 65,5 m de portée et couverture double peau isolée (BT114 et BT38), réalisées par BLOCOTELHA et IPCM BOUTEMA.</p>
+          <div class="meta"><span class="chip line"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Rouiba, Alger</span><span class="chip line">2023 – 2025</span><span class="chip line">BT 114</span><span class="chip line">BLOCOTELHA × IPCM BOUTEMA</span></div>
+        </div>
+      </article>
+
+      <article class="tile proj rv">
+        <div class="media" data-open="blida" data-i="0" tabindex="0" role="button" aria-label="Agrandir la photo"><img id="img-blida" src="images/blida-mall.jpg" alt="Centre commercial Blida Mall" style="object-position:center 60%;"><span class="thumb" data-open="blida" data-i="1" role="button" tabindex="0" aria-label="Voir toutes les photos"><img data-src-from="img-bm-str" src="" alt="Charpente du Blida Mall en montage"><i>+3</i></span><div class="top"><span class="chip white dot live">En cours</span><span class="chip dark">IPCM BOUTEMA</span></div><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></div>
+        <div class="body">
+          <span class="chip">P-03 · Centre commercial</span>
+          <h3>Blida Mall</h3>
+          <div class="big"><b>1 500 t</b><span>de charpente</span></div>
+          <p>Fabrication et montage de la charpente métallique, couvertures, extension, ascenseurs et monte-charges. Deux salles de jeux sur deux niveaux, en toitures autoportantes BT 114 de 24 m et 27 m de portée.</p>
+          <div class="meta"><span class="chip line"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Béni Mered, Blida</span><span class="chip line">Depuis 2024</span><span class="chip line">SARL BDS Tourisme</span><span class="chip line">BT 114</span></div>
+        </div>
+      </article>
+
+      <article class="tile proj rv">
+        <div class="media" data-open="kharrouba" data-i="0" tabindex="0" role="button" aria-label="Agrandir la photo"><img id="img-kharrouba" src="images/kharrouba-structure.jpg" alt="Unité de production à Kharrouba" style="object-position:center 42%;"><span class="thumb" data-open="kharrouba" data-i="2" role="button" tabindex="0" aria-label="Voir toutes les photos"><img data-src-from="img-kh-mez" src="" alt="Mezzanine de l'unité de production"><i>+3</i></span><div class="top"><span class="chip white dot">Réalisé</span></div><span class="zoom"><svg class="ico"><use href="#i-zoom"/></svg></span></div>
+        <div class="body">
+          <span class="chip">P-04 · Industrie</span>
+          <h3>Unité de production</h3>
+          <div class="big"><b>36 m</b><span>de portée</span></div>
+          <p>Structure grande portée, mezzanine sur près de la moitié de la surface et monte-charge industriel central.</p>
+          <div class="meta"><span class="chip line"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Kharrouba, Boumerdès</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-h rv"><span class="num">04</span><h2>Nos <em>services</em></h2><p>De la charpente au bâtiment et à l'industrie : une seule entreprise pour tout votre ouvrage.</p></div>
+    <div class="sgrid">
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-beam"/></svg></span><span class="n">01</span></div><div><h3>Charpente métallique</h3><p>Charpentes ordinaires, PRS, tubulaires et complexes : fabrication et montage, y compris les grandes portées.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-build"/></svg></span><span class="n">02</span></div><div><h3>Bâtiments industriels &amp; commerciaux</h3><p>Hangars, unités de production, centres commerciaux et équipements publics, mezzanines comprises.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-roof"/></svg></span><span class="n">03</span></div><div><h3>Couverture &amp; bardage</h3><p>SKINZIP®, couvertures autoportantes jusqu'à 30 m de portée, panneaux sandwich, double peau et isolation.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-crane"/></svg></span><span class="n">04</span></div><div><h3>Levage &amp; manutention</h3><p>Grues, engins de levage et nacelles pour les éléments lourds, en toute sécurité.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-stairs"/></svg></span><span class="n">05</span></div><div><h3>Ouvrages métalliques</h3><p>Escaliers, plateformes, passerelles, garde-corps, échelles et supports d'équipements.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-clock"/></svg></span><span class="n">06</span></div><div><h3>Gestion de projet</h3><p>Plans, livraisons, corps de métier, exigences HSE et planning, jusqu'aux finitions.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-layers"/></svg></span><span class="n">07</span></div><div><h3>Salles techniques &amp; soudage</h3><p>Laboratoires, salles blanches et chambres froides ; soudeurs qualifiés MIG et TIG.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-home"/></svg></span><span class="n">08</span></div><div><h3>Construction bâtiment</h3><p>Béton armé et maçonnerie, ossature bois ou métal, menuiseries et revêtements, selon les normes DTR et RPA.</p></div></div>
+      <div class="tile svc rv"><div class="hd"><span class="i"><svg class="ico"><use href="#i-weight"/></svg></span><span class="n">09</span></div><div><h3>Industrie</h3><p>Installation et configuration d'équipements de production, tuyauterie et soudure de réseaux de fluides.</p></div></div>
+      <div class="tile method rv">
+        <div><h3>Notre méthode</h3><p>Six étapes, un seul interlocuteur.</p></div>
+        <ol class="steps"><li>Étude</li><li>Livraison</li><li>Montage</li><li>Fixation</li><li>Alignement</li><li>Finition</li></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SAFETY -->
+<section id="securite">
+  <div class="wrap">
+    <div class="safe">
+      <div class="tile orange safe-main rv">
+        <span class="chip dot">Sécurité sur chantier</span>
+        <h3>La sécurité fait partie de chaque équipe.</h3>
+        <p>Un responsable HSE expérimenté supervise tous nos chantiers. Nos travailleurs certifiés par l'OPREBATPH sont intégrés directement dans les équipes de montage.</p>
+      </div>
+      <div class="tile n rv"><svg class="ico"><use href="#i-shield"/></svg><div><b>1</b><p>Responsable HSE dédié, fort d'une longue expérience</p></div></div>
+      <div class="tile n rv"><svg class="ico"><use href="#i-team"/></svg><div><b>7+</b><p>Travailleurs certifiés HSE par l'OPREBATPH</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-h rv"><span class="num">05</span><h2>Parlons de <em>votre projet</em></h2><p>Réponse rapide pour toute étude de construction métallique.</p></div>
+    <div class="cgrid2">
+      <div class="tile orange c-cta rv">
+        <h3>Un projet en tête&nbsp;?</h3>
+        <p>Appelez-nous, écrivez-nous ou venez nous voir : nous restons à votre disposition pour toute étude.</p>
+        <div class="quick">
+          <a href="tel:+213550700196"><span class="qi"><svg class="ico"><use href="#i-phone"/></svg></span><span><b>Appeler</b><small>0550 70 01 96</small></span></a>
+          <a href="mailto:direction.ipcmboutema@gmail.com"><span class="qi"><svg class="ico"><use href="#i-mail"/></svg></span><span><b>Écrire un email</b><small>direction.ipcmboutema@gmail.com</small></span></a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Rue+des+Fr%C3%A8res+Djennadi+Blida+Alg%C3%A9rie" target="_blank" rel="noopener"><span class="qi"><svg class="ico"><use href="#i-pin"/></svg></span><span><b>Itinéraire</b><small>Blida — ouvrir dans Maps</small></span></a>
+        </div>
+      </div>
+
+      <form class="tile c-form rv" id="quote" novalidate>
+        <h3>Demande d'étude</h3>
+        <p>Choisissez le type de projet et remplissez quelques champs : votre messagerie s'ouvre avec la demande prête à envoyer.</p>
+        <div class="types" role="radiogroup" aria-label="Type de projet">
+          <input type="radio" name="type" id="t1" value="Charpente métallique" checked><label for="t1">Charpente</label>
+          <input type="radio" name="type" id="t2" value="Hangar / bâtiment industriel"><label for="t2">Hangar / industrie</label>
+          <input type="radio" name="type" id="t3" value="Centre commercial / équipement public"><label for="t3">Commercial / public</label>
+          <input type="radio" name="type" id="t4" value="Couverture & bardage"><label for="t4">Couverture</label>
+          <input type="radio" name="type" id="t5" value="Ouvrages métalliques"><label for="t5">Ouvrages</label>
+          <input type="radio" name="type" id="t7" value="Construction bâtiment"><label for="t7">Bâtiment</label>
+          <input type="radio" name="type" id="t8" value="Industrie / tuyauterie"><label for="t8">Industrie</label>
+          <input type="radio" name="type" id="t6" value="Autre"><label for="t6">Autre</label>
+        </div>
+        <div class="fields">
+          <div class="f"><label for="qName">Nom / Société *</label><input id="qName" name="nom" autocomplete="organization"></div>
+          <div class="f"><label for="qTel">Téléphone</label><input id="qTel" name="tel" type="tel" autocomplete="tel" inputmode="tel"></div>
+          <div class="f"><label for="qWil">Wilaya</label><input id="qWil" name="wilaya" placeholder="ex. Blida"></div>
+          <div class="f"><label for="qSurf">Surface ou tonnage</label><input id="qSurf" name="surface" placeholder="ex. 2 500 m² ou 120 t"></div>
+          <div class="f full"><label for="qMsg">Message</label><textarea id="qMsg" name="message" placeholder="Délais, plans disponibles, détails du projet…"></textarea></div>
+        </div>
+        <button class="btn btn-o" type="submit">Préparer la demande <svg class="ico"><use href="#i-arrow"/></svg></button>
+        <p class="hint">Envoyée à direction.ipcmboutema@gmail.com</p>
+      </form>
+
+      <div class="tile c-phones rv">
+        <h4>Téléphones</h4>
+        <div class="plist">
+          <a href="tel:+213550700196">0550 70 01 96<svg class="ico"><use href="#i-phone"/></svg></a>
+          <a href="tel:+213550700231">0550 70 02 31<svg class="ico"><use href="#i-phone"/></svg></a>
+          <a href="tel:+213550700255">0550 70 02 55<svg class="ico"><use href="#i-phone"/></svg></a>
+          <a href="tel:+213556776686">0556 77 66 86<svg class="ico"><use href="#i-phone"/></svg></a>
+          <a href="tel:+213560315837">0560 31 58 37<svg class="ico"><use href="#i-phone"/></svg></a>
+          <a href="tel:+213540274495">0540 27 44 95<svg class="ico"><use href="#i-phone"/></svg></a>
+        </div>
+      </div>
+      <div class="tile c-mails rv">
+        <h4>Emails</h4>
+        <a href="mailto:direction.ipcmboutema@gmail.com">direction.ipcmboutema@gmail.com</a>
+        <a href="mailto:technocommercial.ipcm@gmail.com">technocommercial.ipcm@gmail.com</a>
+        <a href="mailto:yousefipcm@mail.com">yousefipcm@mail.com</a>
+        <a href="mailto:mohamed.boutema@gmail.com">mohamed.boutema@gmail.com</a>
+      </div>
+      <div class="tile c-addr rv">
+        <h4>Adresse</h4>
+        <p>Rue des Frères Djennadi, 3ème étage, Lot 35 Div 96, Blida, Algérie</p>
+        <a class="btn btn-w" style="margin-top:14px" href="https://www.google.com/maps/search/?api=1&amp;query=Rue+des+Fr%C3%A8res+Djennadi+Blida+Alg%C3%A9rie" target="_blank" rel="noopener"><svg class="ico"><use href="#i-map"/></svg>Ouvrir dans Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="tile">
+        <img src="images/logo-ipcm-boutema.png" alt="IPCM BOUTEMA">
+        <p>Construction métallique, couverture, bâtiment et industrie. Entreprise fondée par Abdelkader BOUTEMA, basée à Blida et active dans toute l'Algérie.</p>
+      </div>
+      <div class="tile">
+        <h5>Plan du site</h5>
+        <nav><a href="#entreprise">Entreprise</a><a href="#couverture">Couverture</a><a href="#projets">Projets</a><a href="#services">Services</a><a href="#securite">Sécurité</a><a href="#contact">Contact</a></nav>
+      </div>
+      <div class="tile">
+        <h5>Identification</h5>
+        <p class="legal">RC 09/00-4108712A23<br>NIF 16922040023019500900<br>NIS 196922040023050<br>BP 1001369786</p>
+      </div>
+    </div>
+    <div class="copy"><span>© <span id="yr">2026</span> I.P.C.M BOUTEMA — Tous droits réservés</span><a href="#accueil">Haut de page <svg class="ico" style="width:16px;height:16px"><use href="#i-up"/></svg></a></div>
+  </div>
+</footer>
+
+<!-- phone: bottom action bar -->
+<div class="callbar" id="callbar">
+  <a class="btn btn-o" href="tel:+213550700196"><svg class="ico"><use href="#i-phone"/></svg>Appeler</a>
+  <a class="btn btn-w" href="#quote"><svg class="ico"><use href="#i-doc"/></svg>Devis</a>
+</div>
+
+<!-- phone: menu sheet -->
+<div class="sheet" id="sheet" aria-hidden="true">
+  <div class="sheet-bg" data-close-sheet></div>
+  <div class="sheet-box" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="grab"></div>
+    <nav>
+      <a href="#entreprise"><svg class="ico"><use href="#i-home"/></svg><b>Entreprise</b></a>
+      <a href="#couverture"><svg class="ico"><use href="#i-roof"/></svg><b>Couverture</b></a>
+      <a href="#projets"><svg class="ico"><use href="#i-grid"/></svg><b>Projets</b></a>
+      <a href="#services"><svg class="ico"><use href="#i-beam"/></svg><b>Services</b></a>
+      <a href="#securite"><svg class="ico"><use href="#i-shield"/></svg><b>Sécurité</b></a>
+      <a href="#contact"><svg class="ico"><use href="#i-mail"/></svg><b>Contact</b></a>
+    </nav>
+    <div class="acts">
+      <a class="btn btn-o" href="tel:+213550700196"><svg class="ico"><use href="#i-phone"/></svg>Appeler</a>
+      <a class="btn btn-w" href="#quote" data-close-sheet><svg class="ico"><use href="#i-doc"/></svg>Devis</a>
+    </div>
+  </div>
+</div>
+
+<div style="display:none" aria-hidden="true"><img id="img-rouiba-roof" src="images/rouiba-toiture-bt114.jpg" alt=""><img id="img-rouiba-fin" src="images/rouiba-batiment.jpg" alt=""><img id="img-sx-roof" src="images/safex-toiture-skinzip.jpg" alt=""><img id="img-sx-in" src="images/safex-charpente.jpg" alt=""><img id="img-sx-hall" src="images/safex-hall.jpg" alt=""><img id="img-kh-pano" src="images/kharrouba-etage.jpg" alt=""><img id="img-kh-mez" src="images/kharrouba-mezzanine.jpg" alt=""><img id="img-kh-ext" src="images/kharrouba-bardage.jpg" alt=""><img id="img-bm-str" src="images/blida-charpente.jpg" alt=""><img id="img-bm-bt850" src="images/blida-salle-jeux-bt114.jpg" alt=""><img id="img-bm-int" src="images/blida-niveau-commercial.jpg" alt=""></div>
+
+<!-- coverture references panel -->
+<div class="refs" id="refs" aria-hidden="true">
+  <div class="refs-bg" data-close-refs></div>
+  <div class="refs-box" role="dialog" aria-modal="true" aria-labelledby="refsTitle">
+    <div class="refs-head">
+      <div><small id="refsKick">Références</small><h3 id="refsTitle"></h3><p id="refsSub"></p></div>
+      <button class="refs-x" data-close-refs aria-label="Fermer"><svg class="ico"><use href="#i-x"/></svg></button>
+    </div>
+    <div class="refs-tabs" id="refsTabs" role="tablist">
+      <button type="button" data-k="skinzip">SKINZIP®</button>
+      <button type="button" data-k="bt114">BT 114</button>
+      <button type="button" data-k="bt850">BT 850</button>
+    </div>
+    <div class="refs-body" id="refsBody"></div>
+  </div>
+</div>
+
+<!-- photo lightbox -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="modal-x" data-close aria-label="Fermer"><svg class="ico"><use href="#i-x"/></svg></button>
+    <div class="modal-img"><img id="mImg" src="" alt=""><button class="mnav prev" id="mPrev" aria-label="Photo précédente"><svg class="ico" style="transform:rotate(180deg)"><use href="#i-arrow"/></svg></button><button class="mnav next" id="mNext" aria-label="Photo suivante"><svg class="ico"><use href="#i-arrow"/></svg></button><span class="chip white mcount" id="mCount"></span></div>
+    <div class="modal-body"><h3 id="mTitle"></h3><p id="mText"></p></div>
+  </div>
+</div>
+
+<script>
+  (function(){
+    const intro = document.getElementById('intro');
+    const end = () => { intro.classList.add('done'); document.body.classList.remove('intro-lock'); setTimeout(() => intro.remove(), 700); };
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { end(); return; }
+    let t0 = Date.now();
+    addEventListener('load', () => setTimeout(end, Math.max(0, 1500 - (Date.now() - t0))));
+    setTimeout(end, 3500);
+    intro.addEventListener('click', end);
+  })();
+  const $ = id => document.getElementById(id);
+  document.querySelectorAll('[data-src-from]').forEach(i => { i.src = $(i.dataset.srcFrom).src; });
+  $('yr').textContent = new Date().getFullYear();
+
+  // header border + phone action bar (hidden while the form is on screen)
+  const top_ = $('top'), callbar = $('callbar'), quote = $('quote');
+  const onScroll = () => {
+    top_.classList.toggle('scrolled', scrollY > 8);
+    const q = quote.getBoundingClientRect();
+    callbar.classList.toggle('on', scrollY > innerHeight * .6 && !(q.top < innerHeight && q.bottom > 0));
+  };
+  addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // active section in desktop links + phone tabs
+  const navLinks = [...document.querySelectorAll('#links a, #tabs a')];
+  const tabs = $('tabs');
+  const spy = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    navLinks.forEach(l => {
+      const on = l.getAttribute('href') === '#' + e.target.id;
+      l.classList.toggle('active', on);
+      if (on && l.closest('#tabs')) tabs.scrollTo({left: l.offsetLeft - 14, behavior: 'smooth'});
+    });
+  }), {rootMargin:'-40% 0px -55% 0px'});
+  ['entreprise','couverture','projets','services','securite','contact'].forEach(id => spy.observe($(id)));
+
+  // reveal
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target); }
+  }), {threshold:.1, rootMargin:'0px 0px -30px 0px'});
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+  // count-up figures
+  const fmt = (v, d) => v.toLocaleString('fr-FR', {minimumFractionDigits:d, maximumFractionDigits:d}).replace(/ | /g, ' ');
+  const cio = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; cio.unobserve(e.target);
+    const el = e.target, to = +el.dataset.to, d = +(el.dataset.dec || 0), t0 = performance.now(), dur = 1300;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const step = t => { const p = Math.min(1, (t - t0) / dur), k = 1 - Math.pow(1 - p, 3); el.textContent = fmt(to * k, d); if (p < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  }), {threshold:.6});
+  document.querySelectorAll('.cnt').forEach(el => cio.observe(el));
+
+  // phone menu sheet
+  const sheet = $('sheet'), menuBtn = $('menuBtn');
+  const setSheet = open => { sheet.classList.toggle('open', open); sheet.setAttribute('aria-hidden', !open); menuBtn.setAttribute('aria-expanded', open); document.body.style.overflow = open ? 'hidden' : ''; };
+  menuBtn.addEventListener('click', () => setSheet(true));
+  sheet.querySelectorAll('[data-close-sheet], nav a').forEach(a => a.addEventListener('click', () => setSheet(false)));
+
+  // photo lightbox
+  const src = id => $(id).src;
+  const PROJECTS = {
+    rouiba: {imgs:[src('img-rouiba'), src('img-rouiba-roof'), src('img-rouiba-fin'), src('img-rouiba2')], title:'Piscine Olympique — Rouiba · BLOCOTELHA × IPCM BOUTEMA', text:"Poutres PRS de 65,5 m de portée et couverture double peau isolée (BT114 et BT38)."},
+    blida: {imgs:[src('img-blida'), src('img-bm-str'), src('img-bm-bt850'), src('img-bm-int')], title:'Blida Mall — Béni Mered · IPCM BOUTEMA', text:"Charpente métallique de 1 500 tonnes, couvertures comprises, puis extension, ascenseurs et monte-charges ; deux salles de jeux en toitures autoportantes de 24 m et 27 m.",
+      caps:["Le centre commercial et de loisirs Blida Mall, à Béni Mered (Khazrouna).",
+            "Montage de la charpente : poteaux, poutres de plancher et bacs collaborants, sur un chantier de 1 500 tonnes.",
+            "Salle de jeux : toiture courbe autoportante en BT 114 (24 m et 27 m de portée), sans poteaux intermédiaires.",
+            "Le niveau commercial : poteaux et poutres métalliques laissés apparents, prêts pour l'aménagement des boutiques."]},
+    safex: {imgs:[src('img-safex'), src('img-hero'), src('img-sx-roof'), src('img-sx-in'), src('img-sx-hall')], title:'Palais des Expositions — SAFEX · BLOCOTELHA × IPCM BOUTEMA', text:"Couverture SKINZIP® de 30 000 m², plaques de plus de 60 m façonnées sur site.",
+      caps:["Vue aérienne : les voûtes du nouveau Palais des Expositions, Pins Maritimes (Alger).",
+            "La façade principale en service : le premier pavillon accueille déjà les salons.",
+            "La couverture SKINZIP® en place : longues plaques courbes à joint debout, sans jonction, avec lanterneaux d'éclairage.",
+            "Sous la toiture : charpente en treillis et bacs de sous-face, travaux en nacelle pour les finitions.",
+            "Le grand hall d'exposition : un volume libre, sans poteaux intermédiaires."]},
+    kharrouba: {imgs:[src('img-kharrouba'), src('img-kh-ext'), src('img-kh-mez'), src('img-kh-pano')], title:'Unité de production — Kharrouba · IPCM BOUTEMA', text:"Structure de 36 m de portée, mezzanine et monte-charge central.",
+      caps:["L'ossature complète en place : portiques de 36 m de portée, contreventements et remplissage en briques.",
+            "Pose du bardage : panneaux sandwich en façade, charpente visible en pignon.",
+            "La mezzanine : dalle collaborante sur poutres métalliques, couvrant près de la moitié de la surface.",
+            "Vue panoramique de l'étage : grand plateau libre sous la toiture en panneaux sandwich."]}
+  };
+  const modal = $('modal'), mImg = $('mImg'), mPrev = $('mPrev'), mNext = $('mNext');
+  let cur = null, idx = 0, lastFocus = null;
+  const show = i => {
+    idx = (i + cur.imgs.length) % cur.imgs.length;
+    mImg.src = cur.imgs[idx]; mImg.alt = cur.title;
+    const many = cur.imgs.length > 1;
+    mPrev.style.display = mNext.style.display = $('mCount').style.display = many ? '' : 'none';
+    $('mCount').textContent = (idx + 1) + ' / ' + cur.imgs.length;
+    $('mText').textContent = (cur.caps && cur.caps[idx]) || cur.text;
+  };
+  const open = (key, i) => {
+    cur = PROJECTS[key]; lastFocus = document.activeElement;
+    $('mTitle').textContent = cur.title;
+    show(i || 0);
+    modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden';
+    modal.querySelector('.modal-x').focus();
+  };
+  const close = () => { modal.classList.remove('open'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); };
+  document.querySelectorAll('[data-open]').forEach(el => {
+    const go = e => { if (e) e.stopPropagation(); open(el.dataset.open, +el.dataset.i || 0); };
+    el.addEventListener('click', go);
+    el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(e); } });
+  });
+
+  // hover preview: "Voir les N photos" + filmstrip, and a clear link in each card body
+  const CAM = '<svg class="ico"><use href="#i-zoom"/></svg>', ARR = '<svg class="ico"><use href="#i-arrow"/></svg>';
+  document.querySelectorAll('.proj').forEach(card => {
+    const media = card.querySelector('.media'), trigger = card.querySelector('[data-open]');
+    if (!media || !trigger) return;
+    const key = trigger.dataset.open, p = PROJECTS[key]; if (!p) return;
+    const n = p.imgs.length;
+    const peek = document.createElement('div'); peek.className = 'peek'; peek.setAttribute('aria-hidden', 'true');
+    peek.innerHTML = `<span class="cta">${CAM}Voir les photos <b>${n}</b></span><div class="strip">${p.imgs.slice(0, 5).map(u => `<img src="${u}" alt="">`).join('')}</div>`;
+    media.appendChild(peek);
+    const body = card.querySelector('.body');
+    if (body) {
+      const more = document.createElement('span'); more.className = 'more';
+      more.innerHTML = `Voir le projet en photos <span class="n">${n}</span>${ARR}`;
+      const meta = body.querySelector('.meta'); body.insertBefore(more, meta);
+    }
+    card.addEventListener('click', e => { if (e.target.closest('a')) return; open(key, 0); });
+  });
+  document.querySelectorAll('.cov').forEach(t => {
+    const m = t.querySelector('.media'), c = t.querySelector('.see .count'); if (!m || !c) return;
+    const peek = document.createElement('div'); peek.className = 'peek'; peek.setAttribute('aria-hidden', 'true');
+    peek.innerHTML = `<span class="cta"><svg class="ico"><use href="#i-grid"/></svg>Voir ${c.textContent} projets</span>`;
+    m.appendChild(peek);
+  });
+
+  // phone: play the preview once when a card scrolls into view
+  if (matchMedia('(hover:none)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const pio = new IntersectionObserver(es => es.forEach(e => {
+      if (!e.isIntersecting) return; pio.unobserve(e.target);
+      const el = e.target;
+      setTimeout(() => { el.classList.add('peeking'); setTimeout(() => el.classList.remove('peeking'), 2200); }, 350);
+    }), {threshold:.6});
+    document.querySelectorAll('.proj, .cov').forEach(el => pio.observe(el));
+  }
+  modal.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', close));
+  mPrev.addEventListener('click', () => show(idx - 1));
+  mNext.addEventListener('click', () => show(idx + 1));
+  // swipe in the lightbox
+  let sx = null;
+  mImg.parentElement.addEventListener('touchstart', e => { sx = e.touches[0].clientX; }, {passive:true});
+  mImg.parentElement.addEventListener('touchend', e => { if (sx === null || !cur || cur.imgs.length < 2) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) show(idx + (dx < 0 ? 1 : -1)); sx = null; });
+  addEventListener('keydown', e => {
+    if (e.key === 'Escape') { if (sheet.classList.contains('open')) setSheet(false); if (modal.classList.contains('open')) close(); }
+    if (!modal.classList.contains('open')) return;
+    if (e.key === 'ArrowLeft') show(idx - 1);
+    if (e.key === 'ArrowRight') show(idx + 1);
+  });
+
+  // ===== coverture -> projects that use it =====
+  const BL = 'https://www.blocotelha.com/files/uploads/2024/06/';
+  const W = (name, place, fig, text, img, url) => ({name, place, fig, text, img: BL + img, url: 'https://www.blocotelha.com/projects/' + url + '/'});
+  const AUTO_WORLD = [
+    W('Marché Bourached', 'Algérie', '31 000 m²', "Marché aux façades complexes ; application du système autoportant citée dans la brochure Blocotelha.", 'Destaque-Bourached-Market.webp', 'bourached-market'),
+    W('ERSUC Aveiro & Coimbra', 'Portugal', '21 000 m²', "Centre environnemental : 300 t de structure, montage rapide grâce au système autoportant.", 'Destaque-ERSUC.webp', 'ersuc-aveiro-coimbra'),
+    W('LIPOR', 'Portugal', 'Autoportant', "Installation environnementale : structure, couverture autoportante et façades.", 'Destaque-LIPOR.webp', 'lipor')
+  ];
+  const REFS = {
+    skinzip: {
+      title: 'SKINZIP® — joint debout',
+      sub: 'Les projets réalisés avec la couverture SKINZIP®, chez nous et dans le monde.',
+      ours: [{name: 'Palais des Expositions — SAFEX', place: 'Alger, Algérie', fig: '30 000 m²', text: "Plaques de plus de 60 m façonnées sur site, sans jonction, avec lanterneaux d'éclairage. Chantier mai – déc. 2026, BLOCOTELHA et IPCM BOUTEMA.", img: () => src('img-safex'), img2: () => src('img-sx-roof')}],
+      world: [
+        W('Aéroport international de Faro', 'Portugal', '28 900 m²', "Couverture SKINZIP® et 370 t de structure, réalisées aéroport en service.", 'Destaque-Faro.webp', 'faro-international-airport'),
+        W('Stade de Leiria', 'Portugal', '20 000 m²', "Stade de 24 000 places : 715 t de structure et 20 000 m² de SKINZIP®.", 'Destaque-Leiria-Stadium-2.webp', 'leiria-stadium'),
+        W('Sakthi', 'Portugal', '20 200 m²', "Site industriel couvert en SKINZIP®.", 'Destaque-Sakthi.webp', 'sakthi'),
+        W('Aéroport de Lisbonne — Pont Nord', 'Portugal', '17 400 m²', "Meilleur confort thermique et acoustique ; 1 200 t de structure.", 'Destaque-Lisbon-Airport-North-Bridge.webp', 'lisbon-airport-north-bridge'),
+        W('Cabopol Polymer Compounds', 'Portugal', '15 150 m²', "Bâtiment industriel : SKINZIP® en façade et 400 t de structure.", 'Destaque-Cabopol.webp', 'cabopol-polymer-compounds'),
+        W('Aéroport international d\'Ivato', 'Madagascar', '11 600 m²', "Aéroport en joint debout SKINZIP® et 230 t de structure.", 'Destaque-IVATO-1.webp', 'ivato-international-airport')
+      ]
+    },
+    bt114: {
+      title: 'BT 114 — autoportant',
+      sub: 'Profil trapézoïdal autoportant, jusqu\'à 26 m de portée (données Blocotelha).',
+      ours: [{name: 'Piscine Olympique', place: 'Rouiba, Alger', fig: 'Couverture BT 114', text: "Couverture double peau isolée en BT114 et BT38. Réalisé par BLOCOTELHA et IPCM BOUTEMA (2023 – 2025).", img: () => src('img-rouiba-roof'), img2: () => src('img-rouiba-fin')}, {name: 'Centre commercial Blida Mall', place: 'Béni Mered, Khazrouna (Blida)', fig: 'BT 114', text: "Salles de jeux en toiture autoportante BT 114 sur un chantier de 1 500 t de charpente. En cours depuis 2024 — IPCM BOUTEMA. Portées de 24 m et 27 m.", by: 'IPCM BOUTEMA', img: () => src('img-bm-bt850'), img2: () => src('img-blida')}],
+      world: AUTO_WORLD,
+      note: 'Les références Blocotelha ci-dessus utilisent le système AUTOPORTANTE® ; le profil exact de chaque projet n\'est pas précisé sur leur site.'
+    },
+    bt850: {
+      title: 'BT 850 — grande portée',
+      sub: 'Acier profilé autoportant pour les grands bâtiments industriels et commerciaux.',
+      ours: [],
+      world: AUTO_WORLD,
+      note: 'Références du système AUTOPORTANTE® de Blocotelha ; le profil exact de chaque projet n\'est pas précisé sur leur site.'
+    }
+  };
+  const PIN = '<svg class="ico" style="width:13px;height:13px"><use href="#i-pin"/></svg>';
+  const ARW = '<svg class="ico" style="width:14px;height:14px"><use href="#i-arrow"/></svg>';
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const card = (r, ours) => `<article class="rcard${ours ? ' ours' : ''}">
+      ${r.img2 ? `<div class="rph two"><img src="${esc(r.img())}" alt="${esc(r.name)}"><img src="${esc(r.img2())}" alt="${esc(r.name)}"><span class="chip">${esc(r.by || 'BLOCOTELHA × IPCM BOUTEMA')}</span></div>` : `<div class="rph"><svg class="ico"><use href="#i-roof"/></svg>
+        <img src="${esc(typeof r.img === 'function' ? r.img() : r.img)}" alt="${esc(r.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">
+        <span class="chip ${ours ? '' : 'white'}">${ours ? esc(r.by || 'BLOCOTELHA × IPCM BOUTEMA') : 'Blocotelha'}</span></div>`}
+      <div class="rb"><b>${esc(r.name)}</b><span class="pl">${PIN}${esc(r.place)}</span><span class="fg">${esc(r.fig)}</span><p>${esc(r.text)}</p>
+        ${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">Voir sur blocotelha.com ${ARW}</a>` : ''}</div>
+    </article>`;
+  const refs = $('refs'), refsBody = $('refsBody');
+  let refsFocus = null;
+  const fillRefs = k => {
+    const d = REFS[k];
+    $('refsTitle').textContent = d.title; $('refsSub').textContent = d.sub;
+    $('refsKick').textContent = (d.ours.length + d.world.length) + ' projets de référence';
+    [...$('refsTabs').children].forEach(b => b.classList.toggle('on', b.dataset.k === k));
+    refsBody.innerHTML =
+      (d.ours.length ? `<h4>Nos réalisations</h4><div class="rlist">${d.ours.map(r => card(r, true)).join('')}</div>` : '') +
+      `<h4>Références Blocotelha dans le monde</h4><div class="rlist">${d.world.map(r => card(r, false)).join('')}</div>` +
+      (d.note ? `<p class="refs-note">${esc(d.note)}</p>` : '') +
+      `<p class="refs-note">Photos et chiffres : blocotelha.com, partenaire d'IPCM BOUTEMA.</p>` +
+      `<div class="refs-cta"><a class="btn btn-o" href="#contact" data-close-refs>Demander une étude pour ce système ${ARW}</a></div>`;
+    refsBody.scrollTop = 0;
+    refsBody.querySelectorAll('[data-close-refs]').forEach(a => a.addEventListener('click', () => setRefs(false)));
+  };
+  const setRefs = (open, k) => {
+    if (open) { refsFocus = document.activeElement; fillRefs(k); }
+    refs.classList.toggle('open', open); refs.setAttribute('aria-hidden', !open);
+    document.body.style.overflow = open ? 'hidden' : '';
+    if (open) refs.querySelector('.refs-x').focus(); else if (refsFocus) refsFocus.focus();
+  };
+  document.querySelectorAll('.cov[data-refs]').forEach(t => {
+    t.addEventListener('click', () => setRefs(true, t.dataset.refs));
+    t.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target === t) { e.preventDefault(); setRefs(true, t.dataset.refs); } });
+  });
+  [...$('refsTabs').children].forEach(b => b.addEventListener('click', () => fillRefs(b.dataset.k)));
+  refs.querySelectorAll('.refs-head [data-close-refs], .refs-bg').forEach(b => b.addEventListener('click', () => setRefs(false)));
+  addEventListener('keydown', e => { if (e.key === 'Escape' && refs.classList.contains('open')) setRefs(false); });
+
+  // quote form -> ready-to-send email
+  quote.addEventListener('submit', e => {
+    e.preventDefault();
+    const f = e.target, v = n => (f.elements[n].value || '').trim();
+    if (!v('nom')) { f.elements.nom.classList.add('err'); f.elements.nom.focus(); return; }
+    f.elements.nom.classList.remove('err');
+    const body = ['Nom / Société : ' + v('nom'), 'Téléphone : ' + (v('tel') || '—'), 'Type de projet : ' + v('type'), 'Wilaya : ' + (v('wilaya') || '—'), 'Surface / tonnage : ' + (v('surface') || '—'), '', v('message')].join('\n');
+    location.href = 'mailto:direction.ipcmboutema@gmail.com?subject=' + encodeURIComponent("Demande d'étude — " + v('type')) + '&body=' + encodeURIComponent(body);
+  });
+</script>
+</body>
+</html>
+
+# IPCM BOUTEMA — site web
+
+Site officiel : https://www.ipcm-boutema.dz
+
+- `index.html` : la page du site
+- `images/` : photos des projets et logo
+- `CNAME` : nom de domaine (ne pas supprimer)
+
+Pour modifier une photo : remplacer le fichier dans `images/` en gardant le même nom.
